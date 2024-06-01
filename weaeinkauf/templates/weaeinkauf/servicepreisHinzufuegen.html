@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WEA Preisdatenbank</title>
+    {% load static %}
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="{% static 'weaeinkauf/style.css' %}">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar bg-primary navbar-expand-lg custom-navbar">
+        <a class="ms-2" href="{% url 'index' %}">
+        <span class="material-symbols-outlined text-white">
+            home
+        </span>
+        </a>
+        <div class="container-fluid justify-content-center">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Quellen
+                    </button>
+                    <ul class="dropdown-menu py-0 bg-secondary border-0">
+                        <li><a class="dropdown-item text-white custom-hover" href="{% url 'quellenAnzeigen' %}">Quellen anzeigen</a>
+                        </li>
+                        <li><a class="dropdown-item text-white custom-hover" href="{% url 'quellenEintragen' %}">Quellen eintragen</a>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">WEA Preise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Servicepreise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Hersteller</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">WEA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Projekte</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown me-2 position-absolute" style="right: 0;">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Willkommen Mustafa
+            </button>
+            <ul class="dropdown-menu py-0 bg-secondary border-0">
+                <li><a class="dropdown-item text-white custom-hover" href="#">Ausloggen</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="row p-4">
+        <div class="col-12 col-lg-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mt-2"> Servicepreise </h4>
+                    <p class="mb-0">Erstellen eines neuen Servicepreises</p>
+                </div>
+                <div class="card-body">
+                    <!-- Tabs navs -->
+                    <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a data-mdb-tab-init class="nav-link active" id="ex1-tab-1" href="#ex1-tabs-1" role="tab"
+                                aria-controls="ex1-tabs-1" aria-selected="true">Generelles</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a data-mdb-tab-init class="nav-link" id="ex1-tab-2" href="#ex1-tabs-2" role="tab"
+                                aria-controls="ex1-tabs-2" aria-selected="false">Preise</a>
+                        </li>
+                    </ul>
+                    <!-- Tabs navs -->
+
+                    <!-- Tabs content -->
+                    <div class="tab-content" id="ex1-content">
+                        <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel"
+                            aria-labelledby="ex1-tab-1">
+                            <div class="row mb-4">
+                                <div class="col-12 col-sm-6 col-lg-5 p-2">
+                                    <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Name
+                                        *</label>
+                                    <input type="text" class="form-control" id="quelleId">
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 p-2 ms-3">
+                                    <div class="d-flex align-items-center">
+                                        <label for="quelleId" class="form-label mb-0 ps-1"
+                                            style="font-weight: 500;">Projekt
+                                        </label>
+                                        <span class="material-symbols-outlined ms-1 pb-1">
+                                            help
+                                        </span>
+                                    </div>
+
+                                    <button class="btn btn-primary d-flex align-items-center">Projekt hinzufügen <span
+                                            class="material-symbols-outlined ms-2"
+                                            style="font-size: 18px;">add</span></button>
+                                </div>
+
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-12 col-sm-6 col-lg-5 p-2">
+                                    <label for="quelleId" class="form-label mb-0"
+                                        style="font-weight: 500;">Vertragslaufzeit <span class="fw-lighter">in Jahren
+                                            *</span></label>
+                                    <input type="text" class="form-control" id="quelleId" placeholder="">
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-12 col-sm-6 col-lg-5 p-2">
+                                    <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Basisjahr
+                                        zur Indexierung</label>
+                                    <div class="row ps-3">
+                                        <div class="col-4 form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="exampleRadios1">
+                                                Vertragsbeginn
+                                            </label>
+                                        </div>
+                                        <div class="col-4 form-check">
+                                            <input class="form-check-input" type="radio" name="exampleRadios"
+                                                id="exampleRadios2" value="option2">
+                                            <label class="form-check-label" for="exampleRadios2">
+                                                Jahr
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" id="quelleId" placeholder="0">
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-12 col-sm-6 col-lg-5 p-2">
+                                    <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Grenzwert in
+                                        MWh</label>
+                                    <input type="text" class="form-control" id="quelleId" placeholder="123.456,78">
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 p-2 ms-3">
+                                    <div class="d-flex align-items-center">
+                                        <label for="quelleId" class="form-label mb-0 ps-1" style="font-weight: 500;">WEA
+                                        </label>
+                                        <span class="material-symbols-outlined ms-1 pb-1">
+                                            help
+                                        </span>
+                                    </div>
+                                    <button class="btn btn-primary d-flex align-items-center">WEA hinzufügen <span
+                                            class="material-symbols-outlined ms-2" style="font-size: 18px;">add</span>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-12 col-sm-6 col-lg-5 p-2">
+                                    <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Bemerkung
+                                        <span class="fw-lighter">Bemerkung zum Servispreis</span></label>
+                                    <input type="text" class="form-control" id="quelleId" placeholder="">
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-12 col-sm-6 col-lg-5 p-2">
+                                    <label for="quelleId" class="form-label mb-0"
+                                        style="font-weight: 500;">Kündigungsrecht
+                                    </label>
+                                    <input type="text" class="form-control" id="quelleId" placeholder="">
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col-12 col-sm-6 col-lg-4 p-2">
+                                    <span style="font-weight: 500;">Erstellt von
+                                    </span>
+                                    <p>Mustafa Kayabasi</p>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary">Servicepreis eintragen</button>
+                        </div>
+                        <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+                            Tab 2 content
+                        </div>
+                    </div>
+                    <!-- Tabs content -->
+
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4>Quelle: Angebot</h4>
+                    <div class="d-flex align-items-center">
+                        Quelle ID: 895
+                        <span class="material-symbols-outlined text-white ms-2">
+                            zoom_in
+                        </span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6 class="mb-0 fw-bold">Quellendatum</h6>
+                            <p>2023-03-27</p>
+                        </div>
+                        <div class="col-6">
+                            <h6 class="mb-0 fw-bold">Angebotskennung</h6>
+                            <p>---</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <h6 class="mb-0 fw-bold">Bemerkung</h6>
+                            <p>---</p>
+                        </div>
+                        <div class="col-6">
+                            <h6 class="mb-0 fw-bold">Wetterrisiko</h6>
+                            <p>nicht inkl.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <h6 class="mb-0 fw-bold">Projekt</h6>
+                            <p>W1 Werneuchen I</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <h6 class="mb-0 fw-bold">Erstellt von</h6>
+                            <p> kevin pietka </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h6 class="mb-0 fw-bold">Datei zur Quelle</h6>
+                            <p class="text-primary mb-0">BN WN 41 00 02 231006</p>
+                            <p class="text-primary mb-0">von Vestas Angebot</p>
+                            <p class="text-primary mb-0">Werneuchen 13xV172-7.2.msg</p>
+                        </div>
+                    </div>
+                    <span class="material-symbols-outlined btn bg-primary p-2 text-white">
+                        edit
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+</body>
+
+</html>
