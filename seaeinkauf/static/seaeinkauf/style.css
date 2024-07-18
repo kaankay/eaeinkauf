@@ -1,0 +1,15 @@
+.custom-navbar {
+    background-color: #003060;
+    color: white;
+    border-bottom: 1px solid #e9ecef;
+    width: 100%;
+}
+
+#navbarNav {
+    justify-content: center
+}
+
+.custom-hover:hover {
+    background-color: #c6c6c6 !important;
+    color: black !important;
+}

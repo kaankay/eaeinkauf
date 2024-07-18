@@ -4,17 +4,21 @@ from . import views
 
 urlpatterns = [
     # ex: 
-    path("", views.index, name="index"),
-    # ex: /quellenanzeigen/
+    path("", views.wind_index, name="wind_index"),
+    # ex: go-to-homepage
+    path("go-to-homepage", views.go_to_homepage, name="go_to_homepage"),
+    # ex: wind/quellenanzeigen/
     path("quellenanzeigen/", views.quellenAnzeigen, name="quellenAnzeigen"),
-    # ex: /quelleneintragen/
+    # ex: wind/quelleneintragen/
     path("quelleneintragen/", views.quellenEintragen, name="quellenEintragen"),
-     # ex: /weapreishinzufuegen/
+     # ex: wind/weapreishinzufuegen/
     path("weapreishinzufuegen/", views.weapreisHinzufuegen, name="weapreisHinzufuegen"),
-    # ex: /servicepreishinzufuegen/
+    # ex: wind/servicepreishinzufuegen/
     path("servicepreishinzufuegen/", views.servicepreisHinzufuegen, name="servicepreisHinzufuegen"),
-    # ex: /quellendetailsanzeigen/
-    path("quellendetailsanzeigen/", views.quellenDetailsAnzeigen, name="quellenDetailsAnzeigen"),
-    # ex: /quellendetailsbearbeiten/
-    path("quellendetailsbearbeiten/", views.quellenDetailsBearbeiten, name="quellenDetailsBearbeiten"),
+    # ex: wind/quellendetailsanzeigen/895/
+    path("quellendetailsanzeigen/<int:pk>/", views.quellenDetailsAnzeigen, name="quellenDetailsAnzeigen"),
+    # ex: wind/quellendetailsanzeigen/895/bearbeiten/
+    path("quellendetailsanzeigen/<int:pk>/bearbeiten/", views.quellenDetailsBearbeiten, name="quellenDetailsBearbeiten"),
+    # ex: wind/quellendetailsanzeigen/895/bearbeiten/loeschen/
+    path("quellendetailsanzeigen/<int:pk>/bearbeiten/loeschen/", views.quellenDetailsLoeschen, name="quellenDetailsLoeschen"),
 ]

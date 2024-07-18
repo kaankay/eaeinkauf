@@ -9,6 +9,7 @@
     {% load bootstrap5 %}
     {% bootstrap_css %}
     {% bootstrap_javascript %}
+    {% load custom_filters %}
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -16,12 +17,22 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <link rel="stylesheet" href="{% static 'weaeinkauf/style.css' %}">
+    <style>
+        .no-bullets {
+            list-style-type: none;
+            padding: 0;
+        }
+        .force-break {
+            display: inline-block;
+            margin-left: 1.4em; /* Optional: Anpassen, um zu viel Platz vor „Bücher“ zu vermeiden */
+        }
+    </style>
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar bg-primary navbar-expand-lg custom-navbar">
-        <a class="ms-2" href="{% url 'index' %}">
+        <a class="ms-2" href="{% url 'go_to_homepage' %}">
         <span class="material-symbols-outlined text-white">
             home
         </span>
@@ -76,115 +87,247 @@
         <div class="col-12 col-lg-8">
             <div class="card">
                 <div class="card-header bg-primary text-white">
-                    <h4 class="mt-2"> Quelle : Angebot </h4>
-                    <p class="mb-0">Quelle ID : 895</p>
+                    <h4 class="mt-2"> Quelle : {{quelleDetail.quellenart}} </h4>
+                    <p class="mb-0">Quelle ID : {{quelleDetail.id}}</p>
                 </div>
                 <div class="card-body">
                     <div class="row mb-4">
                         <div class="col-12 col-sm-6  p-2">
                             <h6>Quellendatum</h6>
-                            <p>2023-03-27</p>
+                            <p>{{quelleDetail.quellendatum}}</p>
                             <h6>Bemerkung</h6>
-                            <p>---</p>
+                            {% if quelleDetail.bemerkung %}
+                            <p>{{quelleDetail.bemerkung}}</p>
+                            {% else %}
+                            <p>--</p>
+                            {% endif %}
                             <h6>Projekt</h6>
                             <p>W1 Werneuchen I</p>
                             <h6>Erstellt von</h6>
-                            <p>kevin pietka</p>
+                            <p>{{quelleDetail.created_by}}</p>
                             <h6>Erstellt am</h6>
-                            <p>2023-03-27</p>
+                            <p>{{quelleDetail.created_at}}</p>
                             <h6>Datei zur Quelle</h6>
-                            <p class="text-primary mb-0">BN WN 41 00 02 231006 von Vestas Angebot</p>
-                            <p class="text-primary mb-0">Werneuchen 13xV172-7.2.msg</p>
+                            <p class="text-primary mb-0">
+                                <ul class="no-bullets">
+                                    {% for doc in quelleDocs %}
+                                    <li>
+                                        {% if doc.filename %}
+                                        <a href="#">{{ doc.filename }}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </p>
                         </div>
                         <div class="col-12 col-sm-6  p-2">
-                            <h6>Angebotskennung</h6>
-                            <p>---</p>
-                            <h6>Wetterrisiko</h6>
-                            <p>nicht inkl.</p>
+                            {% if quelleDetail.quellenart == "Angebot" %}
+                                <h6>Angebotskennung</h6>
+                                <ul class="no-bullets">
+                                    {% for angebot in angebote %}
+                                    <li>
+                                        {% if angebot.angebotskennung %}
+                                        <a>{{angebot.angebotskennung}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                <h6>Wetterrisiko</h6>
+                                <ul class="no-bullets">
+                                    {% for angebot in angebote %}
+                                    <li>
+                                        {% if angebot.wetterrisiko %}
+                                        <a>{{angebot.wetterrisiko}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                <h6>Bemerkung</h6>
+                                <ul class="no-bullets">
+                                    {% for angebot in angebote %}
+                                    <li>
+                                        {% if angebot.bemerkung %}
+                                        <a>{{angebot.bemerkung}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            {% elif quelleDetail.quellenart == "Vertrag" %}
+                                <h6>Vertragskennung</h6>
+                                <ul class="no-bullets">
+                                    {% for vertrag in vertraege %}
+                                    <li>
+                                        {% if vertrag.vertragskennung %}
+                                        <a>{{vertrag.vertragskennung}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                <h6>Wetterrisiko</h6>
+                                <ul class="no-bullets">
+                                    {% for vertrag in vertraege %}
+                                    <li>
+                                        {% if vertrag.wetterrisiko %}
+                                        <a>{{vertrag.wetterrisiko}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                <h6>Lieferzeit</h6>
+                                <ul class="no-bullets">
+                                    {% for vertrag in vertraege %}
+                                    <li>
+                                        {% if vertrag.lieferzeit %}
+                                        <a>{{vertrag.lieferzeit}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                <h6>Vertragsart</h6>
+                                <ul class="no-bullets">
+                                    {% for vertrag in vertraege %}
+                                    <li>
+                                        {% if vertrag.vertragsart %}
+                                        <a>{{vertrag.vertragsart}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                <h6>Vertragsbeginn</h6>
+                                <ul class="no-bullets">
+                                    {% for vertrag in vertraege %}
+                                    <li>
+                                        {% if vertrag.vertragsbeginn %}
+                                        <a>{{vertrag.vertragsbeginn}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            {% elif quelleDetail.quellenart == "Schätzung" %}
+                                <h6>Schätzer</h6>
+                                <ul class="no-bullets">
+                                    {% for schaetzung in schaetzungen %}
+                                    <li>
+                                        {% if schaetzung.schaetzer %}
+                                        <a>{{schaetzung.schaetzer}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                <h6>Bemerkung</h6>
+                                <ul class="no-bullets">
+                                    {% for schaetzung in schaetzungen %}
+                                    <li>
+                                        {% if schaetzung.bemerkung %}
+                                        <a>{{schaetzung.bemerkung}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            {% elif quelleDetail.quellenart == "Indikation" %}
+                                <h6>Bemerkung</h6>
+                                <ul class="no-bullets">
+                                    {% for indikation in indikationen %}
+                                    <li>
+                                        {% if indikation.bemerkung %}
+                                        <a>{{indikation.bemerkung}}</a>
+                                        {% else %}
+                                        <a>--</a>
+                                        {% endif %}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
                         </div>
                     </div>
-                    <button class="material-symbols-outlined btn bg-primary p-2 text-white">
-                        edit
-                    </button>
+                    <a class="ms-2" href="{% url 'quellenDetailsBearbeiten' quelleDetail.id %}">
+                        <button class="material-symbols-outlined btn bg-primary p-2 text-white">
+                            edit
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
         <div class="col-12 col-lg-4">
             <div class="card mb-4">
                 <div class="card-header bg-primary text-white d-flex align-items-center justify-content-between pt-3">
-                    <h4>Quelle: Angebot</h4>
+                    <h4 class="force-break">Quelle : {{quelleDetail.quellenart}}</h4>
                     <div>
                         <span class="material-symbols-outlined text-white ms-2">
                             zoom_in
                         </span>
                     </div>
                 </div>
-                <div class="card-body">
-                    <div class="card p-4">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-0 mt-1"><span class="fw-bold">Anlage:</span> Vestas V12/172/7200 <span
-                                    class="fw-bold">Nh:</span> 175,00m <span class="fw-bold">Preis:</span> 7.550.000,00
-                                Euro</p>
-                            <span class="material-symbols-outlined text-primary me-2">
-                                zoom_in
-                            </span>
-                        </div>
-                        <hr>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-0 mt-1"><span class="fw-bold">Anlage:</span> Vestas V12/172/7200 <span
-                                    class="fw-bold">Nh:</span> 199,00m <span class="fw-bold">Preis:</span> 8.450.000,00
-                                Euro</p>
-                            <span class="material-symbols-outlined text-primary me-2">
-                                zoom_in
-                            </span>
-                        </div>
+                <div class="card-body p-4">
+                    {% if quelleDetail.quellenart == "Angebot" %}
+                    {% for weaDetail in weaDetails %}
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="mb-0 mt-1">
+                            <span class="fw-bold force-break">Anlage:</span> Vestas V12/172/7200 <span class="fw-bold">Nh:</span> {{weaDetail.nabenhoehe|format_length}} m
+                            <span class="fw-bold force-break">Preis:</span> {{weaDetail.weaPreis.preis|format_currency}} {{weaDetail.weaPreis.waehrung}}</p>
+                        <span class="material-symbols-outlined text-primary me-2">
+                            zoom_in
+                        </span>
                     </div>
-                    <div class="card p-3 mt-2">
-                        <a class="ms-2" href="{% url 'weapreisHinzufuegen' %}">
-                            <button class="btn btn-primary d-flex align-items-center justify-content-center"
-                            style="width: 40%;"> <span class="material-symbols-outlined me-1"
-                            style="font-size: 18px;">add</span>WEA Preis hinzufügen </button>
-                        </a>
-                    </div>
+                    <hr>
+                    {% endfor %}
+                    {% endif %}
+                    <a class="ms-2" href="{% url 'weapreisHinzufuegen' %}">
+                        <button class="btn btn-primary d-flex align-items-center justify-content-center force-break"
+                        style="width: 40%;"> <span class="material-symbols-outlined me-1"
+                        style="font-size: 18px;">add</span>WEA Preis hinzufügen </button>
+                    </a>
                 </div>
             </div>
             <div class="card">
                 <div class="card-header bg-primary text-white d-flex align-items-center justify-content-between pt-3">
-                    <h4>Zugehörige Servicepreise</h4>
+                    <h4 class="force-break">Zugehörige Servicepreise</h4>
                     <div>
                         <span class="material-symbols-outlined text-white ms-2">
                             zoom_in
                         </span>
                     </div>
                 </div>
-                <div class="card-body">
-                    <div class="card p-4">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-0 mt-1"><span class="fw-bold">Name:</span> AOM 5000 <span
-                                    class="fw-bold">Laufzeit:</span> 25 Jahre <span class="fw-bold">Bemerkung:</span> NH
-                                175m; technische Verfügbarkeit</p>
-                            <span class="material-symbols-outlined text-primary me-2">
-                                zoom_in
-                            </span>
-                        </div>
-                        <hr>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <p class="mb-0 mt-1"><span class="fw-bold">Name:</span> AOM 5000 <span
-                                    class="fw-bold">Laufzeit:</span> 25 Jahre <span class="fw-bold">Bemerkung:</span> NH
-                                199m; technische Verfügbarkeit</p>
-                            <span class="material-symbols-outlined text-primary me-2">
-                                zoom_in
-                            </span>
-                        </div>
+                <div class="card-body p-4">
+                    {% for servicePreis in servicePreise %}
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="mb-0 mt-1">
+                            <span class="fw-bold force-break">Name:</span> {{servicePreis.name}} <span class="fw-bold">Laufzeit:</span> {{servicePreis.laufzeit}} Jahre 
+                            <span class="fw-bold force-break">Bemerkung:</span> 
+                            {{servicePreis.bemerkung}}</p>
+                        <span class="material-symbols-outlined text-primary me-2">
+                            zoom_in
+                        </span>
                     </div>
-                    <div class="card p-3 mt-2">
-                        <a class="ms-2" href="{% url 'servicepreisHinzufuegen' %}">
-                            <button class="btn btn-primary d-flex align-items-center justify-content-center"
-                            style="width: 44%;"> <span class="material-symbols-outlined me-1"
-                            style="font-size: 18px;">add</span>Servicepreis hinzufügen </button>
-                        </a>
-                        
-                    </div>
+                    <hr>
+                    {% endfor %}
+                    <a class="ms-2" href="{% url 'servicepreisHinzufuegen' %}">
+                        <button class="btn btn-primary d-flex align-items-center justify-content-center force-break"
+                        style="width: 44%;"> <span class="material-symbols-outlined me-1"
+                        style="font-size: 18px;">add</span>Servicepreis hinzufügen </button>
+                    </a>   
                 </div>
             </div>
         </div>

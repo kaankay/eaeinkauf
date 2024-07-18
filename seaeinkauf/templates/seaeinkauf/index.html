@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WEA Einkauf</title>
+  {% load static %}
+  {% load bootstrap5 %}
+  {% bootstrap_css %}
+  {% bootstrap_javascript %}
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="{% static 'seaeinkauf/style.css' %}">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar bg-primary navbar-expand-lg custom-navbar">
+    <a class="ms-2" href="{% url 'go_to_homepage' %}">
+      <span class="material-symbols-outlined text-white">
+        home
+      </span>
+    </a>
+    <div class="container-fluid justify-content-center">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Quellen
+              </button>
+              <ul class="dropdown-menu py-0 bg-secondary border-0">
+                <li><a class="dropdown-item text-white custom-hover" href="#">Quellen anzeigen</a>
+                </li>
+                <li><a class="dropdown-item text-white custom-hover" href="#">Quellen eintragen</a>
+                </li>
+              </ul>
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">PV-Module</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Wechselrichter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Unterkonstruktion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Projekte</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="dropdown me-2 position-absolute" style="right: 0;">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Willkommen Mustafa
+      </button>
+      <ul class="dropdown-menu py-0 bg-secondary border-0">
+        <li><a class="dropdown-item text-white custom-hover" href="#">Ausloggen</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <!-- card -->
+
+  <div class="card w-50 m-auto mt-5">
+    <div class="card-header bg-primary text-white">
+      Schnellsuche:
+    </div>
+    <div class="card-body">
+      <form>
+        <div class="mb-3">
+          <label for="quelleId" class="form-label">Quelle ID</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="quelleId">
+            <button class="btn btn-secondary" type="button">Suchen</button>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="weaPreisId" class="form-label">PV-Module ID</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="weaPreisId">
+            <button class="btn btn-secondary" type="button">Suchen</button>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="servicePreisId" class="form-label">Wechselrichter ID</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="servicePreisId">
+            <button class="btn btn-secondary" type="button">Suchen</button>
+          </div>
+        </div>
+        <div class="mb-3">
+            <label for="servicePreisId" class="form-label">Unterkonstruktion ID</label>
+            <div class="input-group">
+              <input type="text" class="form-control" id="servicePreisId">
+              <button class="btn btn-secondary" type="button">Suchen</button>
+            </div>
+          </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- table card -->
+
+  <div class="card w-50 m-auto mt-4">
+    <div class="card-header bg-primary text-white">
+      Letzte Einträge
+    </div>
+    <div class="card-body">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Quelle ID</th>
+            <th scope="col">Quellendatum</th>
+            <th scope="col">Erstellt von</th>
+            <th scope="col">Erstellt am</th>
+            <th scope="col">Quellenart</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for q in latest_quellen_list %}
+          <tr>
+            <td>{{q.id}}</td>
+            <td>{{q.quellendatum}}</td>
+            <td>{{q.created_by}}</td>
+            <td>{{q.created_at}}</td>
+            <td>{{q.quellenart}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

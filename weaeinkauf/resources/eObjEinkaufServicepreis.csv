@@ -1,0 +1,579 @@
+1;AOM 4000;25;Servicekooperation nach Jahr 5 möglich.  Verlängerungsoption nach Jahr 20;ivaylo.petrov;2018-06-26 13:54;459;0;0;
+2;AOM 5000;20;;ivaylo.petrov;2018-06-26 14:54;467;0;;nach Jahr 5
+3;AOM 5000;20;;ivaylo.petrov;2018-06-26 14:58;467;0;;nach Jahr 5
+4;Vollwartungsvertrag;25;Servicekooperation;ivaylo.petrov;2018-06-27 14:02;468;2020;0;nach Jahr 5
+5;Vollwartungsvertrag;20;Servicekooperation,  Indexierung max. 1%;ivaylo.petrov;2018-06-27 14:06;468;2020;0;nach Jahr 5
+6;AOM 4000;20;Servicekooperation nach Jahr 5 möglich.  Verlängerungsoption nach Jahr 20;ivaylo.petrov;2018-06-27 14:35;469;0;;
+8;Vollwartungsvertrag;20;Training on the Job,  Module im Service,  25 Jahre Lebensdauer ;ivaylo.petrov;2018-07-16 10:34;474;2020;;Srvice-Kooperation
+9;Vollwartungsvertrag;5;Training on the Job  Module im Service ;ivaylo.petrov;2018-07-16 10:37;474;2020;0;ab Jahr 6 Servicekooperation
+10;Vollwartungsvertrag;20;Servicekooperation nach Jahr 5 möglich;ivaylo.petrov;2018-07-16 12:02;470;0;;nach Jahr 5
+11;AOM 4000;25;Verfügbarkeit 98%;ivaylo.petrov;2018-08-20 10:13;478;2019;;ab Jahr 6 Servicekooperation
+12;Service Paket Premium;20;Variabler Preis ab dem P75-Wert.  Verfügbarkeit 97%;ivaylo.petrov;2018-08-23 17:41;481;0;12501;nein
+13;Vollwartungsvertrag;20;;ivaylo.petrov;2018-08-24 16:29;482;0;0;
+14;Vollwartungsvertrag;25;Verlängerungsoption nach Jahr 20;ivaylo.petrov;2018-09-28 13:40;484;0;;
+15;Vollwartung Dargikowo;20;;ivaylo.petrov;2018-09-28 14:20;485;0;;
+16;Vollwartung Karlino;20;;ivaylo.petrov;2018-09-28 14:23;485;0;;
+17;Premium;20;Verfügbarkeit 98%;ivaylo.petrov;2018-10-12 11:51;487;0;15592;
+19;Vollwartung Dargikowo;25;;ivaylo.petrov;2018-10-23 15:42;489;2018;;
+20;"Service Paket ""Premium""";20;technische Verfügbarkeitsgewährleistung: Betriebsjahre 1-20: 98% Parkverfügbarkeit;jana.pose;2018-10-25 09:02;488;0;12350;
+21;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 11:50;490;0;;
+22;AOM 5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 12:00;490;0;;
+23;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 12:03;490;0;;
+24;AOM5000;20;97,5% Verfügbarkeit;jana.pose;2018-10-25 13:36;490;0;;
+25;AOM5000;20;97,5% Verfügbarkeit;jana.pose;2018-10-25 13:37;490;0;;
+26;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 13:45;490;0;;
+27;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 13:51;490;0;;
+28;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 13:54;490;0;;
+29;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 13:56;490;0;;
+30;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 14:00;490;0;;
+31;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 14:02;490;0;;
+32;AOM5000;20;97,5% Verfügbarkeit;jana.pose;2018-10-25 14:12;490;0;;
+33;AOM5000;20;97,5% Verfügbarkeit;jana.pose;2018-10-25 14:15;490;0;;
+34;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 14:17;490;0;;
+35;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 14:20;490;0;;
+36;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 14:23;490;0;;
+37;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 14:32;490;0;;
+38;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 14:35;490;0;;
+39;AOM5000;20;97% Verfügbarkeit;jana.pose;2018-10-25 14:36;490;0;;
+40;AOM5000;20;97,5% Verfügbarkeit;jana.pose;2018-10-25 14:40;490;0;;
+41;AOM5000;20;97,5% Verfügbarkeit;jana.pose;2018-10-25 14:43;490;0;;
+42;AOM5000;20;97,5% Verfügbarkeit;jana.pose;2018-10-25 14:45;490;0;;
+43;EPK - Enercon PartnerKonzept;20;availability of 97% per WindFarm and Operational Year;jana.pose;2018-10-25 16:46;500;0;;
+44;EPK - Enercon PartnerKonzept;20;availability of 97% per WindFarm and Operational Year;jana.pose;2018-10-25 16:51;500;0;;
+45;EPK - Enercon PartnerKonzept;20;;jana.pose;2018-10-25 16:53;500;0;;
+46;Annual Service Agreement;20;98% Verfügbarkeit ;jana.pose;2018-10-26 08:25;501;0;;
+47;Annual Service Agreement;20;98% Verfügbarkeit;jana.pose;2018-10-26 08:28;501;0;;
+48;Annual Service Agreement;20;98% Verfügbarkeit;jana.pose;2018-10-26 08:32;501;0;;
+49;Annual Service Agreement;20;98% Verfügbarkeit;jana.pose;2018-10-26 08:35;501;0;;
+50;Premium-Vertrag;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 97,5%  Jahr 16-20 97%;jana.pose;2018-10-26 09:08;502;0;;
+51;Premium-Vertrag;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 97%  Jahr 16-20 97%;jana.pose;2018-10-26 09:51;502;0;;
+52;Premium-Vertrag;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 98%  Jahr 16-20 97%;jana.pose;2018-10-26 09:59;502;0;;
+53;Premium-Vertrag ;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 97%  Jahr 16-20 97%;jana.pose;2018-10-26 10:03;502;0;;
+54;Premium-Vertrag;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 97%  Jahr 16-20 97%;jana.pose;2018-10-26 10:11;502;0;;
+55;Premium-Vertrag;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 97%  Jahr 16-20 97%;jana.pose;2018-10-26 10:16;502;0;;
+56;Premium-Vertrag;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 97,5%  Jahr 16-20 97%;jana.pose;2018-10-26 10:31;502;0;;
+57;Premium-Vertrag;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 97,5%  Jahr 16-20 97%;jana.pose;2018-10-26 10:34;502;0;;
+58;Premium-Vertrag;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 97,5%  Jahr 16-20 97%;jana.pose;2018-10-26 10:41;502;0;;
+59;Premium-Vertrag;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 97%  Jahr 16-20 97%;jana.pose;2018-10-26 10:48;502;0;;
+60;Premium-Vertrag;20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 98%  Jahr 16-20 97%;jana.pose;2018-10-26 10:58;502;0;;
+61;Full Service Agreement;20;Verfügbarkeit: Jahr 1-5 95%  Jahr 6-20 97%;jana.pose;2018-10-26 14:24;504;0;;
+62;Full Service Agreement;20;Verfügbarkeit: Jahr 1-5 95%  Jahr 6-20 97%;jana.pose;2018-10-26 14:29;504;0;;
+63;Full Service Agreement;20;Verfügbarkeit: Jahr 1-5 95%  Jahr 6-20 97%;jana.pose;2018-10-26 14:32;504;0;;
+64;ISP-T;20;Grenzwert = Energie-Ertrags-Untergrenz;ivaylo.petrov;2018-10-29 16:22;480;0;10602;
+65;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,25%  Jahr 3-15 97%  Jahr 16-20 96,5%;jana.pose;2018-11-28 15:34;505;0;;
+66;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,25%  Jahr 3-15 97%  Jahr 16-20 96,5%;jana.pose;2018-11-28 15:38;505;0;;
+67;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,63%  Jahr 3-15 97,5%  Jahr 16-20 97%;jana.pose;2018-11-29 10:30;505;0;;
+68;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,25%  Jahr 3-15 97%  Jahr 16-20 96,5%;jana.pose;2018-11-29 10:34;505;0;;
+69;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,63%  Jahr 3-15 97,5%  Jahr 16-20 97%;jana.pose;2018-11-29 10:40;505;0;;
+70;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,25%  Jahr 3-15 97%  Jahr 16-20 96,5%;jana.pose;2018-11-29 10:43;505;0;;
+71;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,63%  Jahr 3-15 97,5%  Jahr 16-20 97%;jana.pose;2018-11-29 10:49;505;0;;
+72;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,63%  Jahr 3-15 97,5%  Jahr 16-20 97%;jana.pose;2018-11-29 10:53;505;0;;
+73;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,25%  Jahr 3-15 97%  Jahr 16-20 96,5%;jana.pose;2018-11-29 10:56;505;0;;
+74;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,25%  Jahr 3-15 97%  Jahr 16-20 96,5%;jana.pose;2018-11-29 10:59;505;0;;
+75;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 96,25%  Jahr 3-15 97%  Jahr 16-20 96,5%;jana.pose;2018-11-29 11:01;505;0;;
+76;Full Maintenance and Service Agreement;20;Verfügbarkeit: Jahr 1-2 97%  Jahr 3-15 98%  Jahr 16-20 97,5%;jana.pose;2018-11-29 11:04;505;0;;
+77;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-29 13:05;506;0;;
+78;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-29 13:26;507;0;;
+79;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-29 13:51;508;0;;
+80;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-29 14:01;509;0;;
+81;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-29 14:25;510;0;;
+82;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-29 15:25;511;0;;
+83;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-29 15:28;512;0;;
+84;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 08:50;513;0;;
+85;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 08:57;514;0;;
+86;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 09:21;515;0;;
+87;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 09:28;516;0;;
+88;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 10:16;517;0;;
+89;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 10:24;518;0;;
+90;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 10:29;519;0;;
+91;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 10:33;520;0;;
+92;Long-Term-Service-Agreement;20;Tender France;jana.pose;2018-11-30 11:16;521;0;;
+93;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 11:23;522;0;;
+94;Long-Term-Service-Agreement;20;Tender France;jana.pose;2018-11-30 11:27;523;0;;
+95;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 11:34;524;0;;
+96;Long-Term-Service-Agreement;20;technische Verfügbarkeit: 98%;jana.pose;2018-11-30 11:45;525;0;;
+97;Integrated Service Packeage;20;Die angegebenen Preise sind Budgetfestpreise und können je nach Projekt angepasst werden. Insbesondere kann eine Kombination aus Festpreis und produktionsabhängigem Preis umgesetzt werden,  wenn das Projekt abgeschlossen ist.;jana.pose;2018-12-13 11:34;526;0;;
+98;Integrated Service Packeage;20;Die angegebenen Preise sind Budgetfestpreise und können je nach Projekt angepasst werden. Insbesondere kann eine Kombination aus Festpreis und produktionsabhängigem Preis umgesetzt werden,  wenn das Projekt abgeschlossen ist.;jana.pose;2018-12-13 11:37;526;0;;
+99;EPK - Enercon PartnerKonzept;20;;jana.pose;2018-12-18 12:59;528;0;;
+100;EPK - Enercon PartnerKonzept;20;;jana.pose;2018-12-18 13:02;528;0;;
+101;Service Paket Premium;20;;ivaylo.petrov;2019-01-30 13:45;529;0;12.5;
+102;Premium;20;;ivaylo.petrov;2019-02-04 09:51;530;0;;
+103;"Service contract ""Premium""";20;Verfügbarkeit: Jahr 1 96%  Jahr 2-15 98%  Jahr 16-20 97,5%;jana.pose;2019-03-18 08:54;533;0;;
+104;AOM 5000;20;;ivaylo.petrov;2019-03-21 14:32;534;0;;
+105;AOM 4000;25;;ivaylo.petrov;2019-03-21 14:57;535;2020;;Servicekooperation nach Jahr 5  Verlängerungsoption nach Jahr 20
+106;AOM 4000;20;;ivaylo.petrov;2019-04-08 11:33;536;0;;Servicekooperation nach Jahr 5
+107;Vollwartungsvertrag;20;;ivaylo.petrov;2019-05-07 14:45;537;2020;;nach Jahr 5
+108;EPK;20;;ivaylo.petrov;2019-05-09 15:11;538;0;;
+109;Servicevertrag;20;;florian.dillges;2019-06-13 12:20;540;0;;
+110;AOM 4000;25;Verfügbarkeit Jahr 1- 20: 98%, Jahr 20 - 25: 97%;florian.dillges;2019-07-15 10:40;541;2019;;Servicekooperation nach Jahr 5  Verlängerungsoption nach Jahr 20
+112;AOM 4000;25;Verfügbarkeit Jahr 1- 20: 98%, Jahr 20 - 25: 97%;florian.dillges;2019-07-17 09:54;542;2019;;Servicekooperation nach Jahr 5  Verlängerungsoption nach Jahr 20
+114;Service Paket â€žPremiumâ€œ;20;;ivaylo.petrov;2019-07-17 15:20;543;0;;
+115;Service Paket Premium;20;;ivaylo.petrov;2019-07-17 15:53;544;0;;
+116;Vollwartungsvertrag;25;;ivaylo.petrov;2019-07-25 10:01;546;0;;
+117;Vollwartungsvertrag;25;;ivaylo.petrov;2019-07-25 10:30;547;0;;
+119;AOM 5000;20;;ivaylo.petrov;2019-08-08 10:33;549;2021;;
+120;AOM 5000;20;;ivaylo.petrov;2019-08-29 16:18;549;2021;;
+121;Vollwartungsvertrag;20;;florian.dillges;2019-10-08 18:38;552;2020;;
+122;SAA;25;;ivaylo.petrov;2019-10-31 10:19;551;0;;
+123;Premium Service Paket;20;Verfügbarkeit Jahr 1: 96%, Jahr 2-20: 97,5%;florian.dillges;2019-11-01 14:15;553;0;;
+124;AOM 5000;20;Verfügbarkeit jahr 1 - 20: 97%;florian.dillges;2019-11-01 15:03;554;0;;
+127;Vollwartungsvertrag;20;;florian.dillges;2019-11-26 18:19;555;2020;;
+128;AOM 4000;20;;florian.dillges;2020-02-03 17:02;556;0;;
+129;Premium Service Paket;20;96% on year 1  98% from year 2 to 15  97.5% from year 16 to 20;florian.dillges;2020-02-18 15:48;557;2021;;
+130;EPK;20;Verfügbarkeit Jahr 1-20: 97%;florian.dillges;2020-02-18 16:12;558;0;;
+131;AOM 4000;20;Verfügbarkeit jahr 1 - 20: 98%;florian.dillges;2020-02-18 16:39;559;0;;
+132;Service Paket â€žPremiumâ€œ;20;Vertragsjahre 1-15: 96%  16-20: 95%;florian.dillges;2020-03-04 10:49;560;0;12076;
+133;Vollwartungsvertrag;20;Servicekooperation nach Jahr 5 möglich;florian.dillges;2020-03-16 13:46;574;0;;
+134;Vollwartungsvertrag;20;;florian.dillges;2020-03-16 14:20;575;0;;ab Jahr 5
+135;Vollwartungsvertrag;20;;florian.dillges;2020-03-16 15:43;576;0;;ab Jahr 5
+136;Vollwartungsvertrag;20;;florian.dillges;2020-03-16 16:18;577;0;;ab Jahr 5
+137;Vollwartungsvertrag;20;;florian.dillges;2020-03-20 08:38;568;0;;ab Jahr 5
+138;Vollwartungsvertrag;25;;florian.dillges;2020-03-20 08:48;568;0;;ab Jahr 5
+140;Vollwartungsvertrag;20;;florian.dillges;2020-03-20 16:45;567;0;;ab Jahr 5
+141;Vollwartungsvertrag;25;;florian.dillges;2020-03-20 16:47;567;0;;ab Jahr 5
+142;Vollwartungsvertrag;20;;florian.dillges;2020-03-20 16:53;569;0;;ab Jahr 5
+143;Vollwartungsvertrag;25;;florian.dillges;2020-03-20 16:58;569;0;;ab Jahr 5
+144;Vollwartungsvertrag;20;;florian.dillges;2020-03-20 17:02;570;0;;ab Jahr 5
+145;Vollwartungsvertrag;25;;florian.dillges;2020-03-20 17:13;570;0;;ab Jahr 5
+146;Vollwartungsvertrag;20;;florian.dillges;2020-03-20 17:24;571;0;;ab Jahr 5
+147;Vollwartungsvertrag;25;;florian.dillges;2020-03-20 17:24;571;0;;ab Jahr 5
+148;Vollwartungsvertrag;20;;florian.dillges;2020-03-20 17:31;572;0;;ab Jahr 5
+149;Vollwartungsvertrag;25;;florian.dillges;2020-03-20 17:32;572;0;;ab Jahr 5
+150;Vollwartungsvertrag;20;;florian.dillges;2020-03-20 17:36;573;0;;ab Jahr 5
+151;Vollwartungsvertrag;25;;florian.dillges;2020-03-20 17:37;573;0;;ab Jahr 5
+152;Vollwartungsvertrag;20;;florian.dillges;2020-03-20 17:42;565;0;;ab Jahr 5
+153;Vollwartungsvertrag;25;;florian.dillges;2020-03-20 17:43;565;0;;ab Jahr 5
+154;AOM 5000;5;without exit;rosalie.tauchert;2020-05-19 08:09;579;0;;
+155;AOM 5000;20;;rosalie.tauchert;2020-05-19 08:16;579;2021;;
+156;"Maintenance and Service Proposal Type ""Premium""";20;;rosalie.tauchert;2020-05-28 08:47;580;0;;
+157;Enercon Derval;20;EPK 97% Verfübarkeit;rosalie.tauchert;2020-06-10 14:09;581;0;;
+158;Wartungsvertrag Premium;15; Verl. um 5 Jahre vor Beginn des 15. Jahres möglich;rosalie.tauchert;2020-06-17 14:50;582;0;;ordentliche Kündigung ausgeschlossen  Recht zur Kündigung aus ordentlichem Grund (Punkt 12.3)
+159;Vollwartungsvertrag;20;Verfügbarkeitsperiode 5 Jahre;ivaylo.petrov;2020-06-30 11:25;583;2021;;nach Jahr 5
+160;Vollwartungsvertrag;25;Verfügbarkeitsperiode 5 Jahre;ivaylo.petrov;2020-06-30 11:28;583;2021;;nach Jahr 5
+161;Vollwartungsvertrag;20;;ivaylo.petrov;2020-06-30 15:59;584;2021;;nach Jahr 5
+162;AOM 5000;5;;ivaylo.petrov;2020-07-21 14:11;585;2022;;
+163;AOM 5000;20;;ivaylo.petrov;2020-07-21 14:13;585;2022;;
+164;AOM 5000;5;;ivaylo.petrov;2020-07-22 09:20;586;2022;;
+165;AOM 5000;20;;ivaylo.petrov;2020-07-22 09:24;586;2022;;
+166;Vollwartungsvertrag;15;;ivaylo.petrov;2020-09-04 16:01;588;2014;;
+167;AOM 5000;20;;ivaylo.petrov;2020-09-08 15:14;589;0;;
+168; Service Paket Premium;20;;ivaylo.petrov;2020-09-09 16:28;590;0;;
+178;Vollwartung ;20;zeitbasierte Verfügbarkeit;ivaylo.petrov;2020-10-13 14:54;597;0;;
+179;Vollwartungsvertrag;20;Produktionsbasierte Verfügbarkeit;ivaylo.petrov;2020-10-13 14:57;597;0;;
+180;AOM 4000;20;Preise vorerst aus Indikation f. Banie IV abgleitet;toni.haensel;2020-10-29 11:03;598;0;;
+181;AOM 5000;20;Preise aus Indikation f. Banie IV abgleitet;toni.haensel;2020-10-29 11:06;598;0;;
+182;AOM 5000;20;Konditionen wie bei Dobrowo/Retowo;toni.haensel;2020-10-29 11:19;599;0;;
+183;AOM 5000;20;;ivaylo.petrov;2020-10-30 18:04;600;0;;
+184;Service and Availability Agreement (AOM) Vertragsnr. SC-034470;20;Mindestpreismodell;toni.haensel;2020-11-04 11:03;596;0;;
+185;AOM5000 Vertragsnr. SC-034472;20;Mindestpreismodell;toni.haensel;2020-11-04 11:30;593;0;;
+186;Vollwartungsvertrag GE Referenznummer 1206652;20;Fixpreismodell;toni.haensel;2020-11-04 15:57;592;2020;;
+187;Vollwartungsvertrag GE Referenznummer 1206652;25;Fixpreismodell;toni.haensel;2020-11-04 16:08;592;2020;;
+188;SGRE Servicepreise;25;Preise basieren auf Service-Vertrag 300W Payment Schedule Projekt Karlino;toni.haensel;2020-11-06 11:09;602;0;;
+189;Servicepreis lt. Angebot per Mail;20;;toni.haensel;2020-11-06 16:18;605;2021;;
+190;Servicepreis lt. Angebot per Mail;20;Pauschale f. Kündigung nach Jahr 5 = 25.000 EUR/WEA;toni.haensel;2020-11-06 16:20;605;2021;;nach 5 Jahren
+191;Servicepreis lt. Angebot per Mail;20;Pauschale f. Kündigung nach Jahr 5 = 50.000 EUR/WEA;toni.haensel;2020-11-06 16:23;605;2021;;nach 5 Jahren
+192;Servicepreis lt. Angebot per Mail;20;Pauschale f. Kündigung nach Jahr 5 = 75.000 EUR/WEA;toni.haensel;2020-11-06 16:25;605;2021;;nach 5 Jahren
+193;Servicepreis lt. Angebot per Mail;25;;toni.haensel;2020-11-06 16:27;605;2021;;nach 5 Jahren
+194;Servicepreis lt. Angebot per Mail;25;Pauschale f. Kündigung nach Jahr 5 = 25.000 EUR/WEA;toni.haensel;2020-11-06 16:29;605;2021;;nach 5 Jahren
+195;Servicepreis lt. Angebot per Mail;25;Pauschale f. Kündigung nach Jahr 5 = 50.000 EUR/WEA;toni.haensel;2020-11-06 16:32;605;2021;;nach 5 Jahren
+196;Servicepreis lt. Angebot per Mail;25;Pauschale f. Kündigung nach Jahr 5 = 75.000 EUR/WEA;toni.haensel;2020-11-06 16:35;605;2021;;nach 5 Jahren
+197;Vollwartungsvertrag GE Referenz 1227784;20;Mindestpreismodell;toni.haensel;2020-11-06 16:58;587;2021;;
+198;Vollwartungsvertrag GE Referenz 1227784;25;Mindestpreismodell;toni.haensel;2020-11-07 11:05;587;2021;;
+199;AOM 4000;25;;ivaylo.petrov;2020-11-09 16:31;606;0;;nach Jahr 5 und 20
+200;Enercon Servicepreise;20;fix+variabel Preismodell;toni.haensel;2020-11-18 12:53;608;0;;
+201;AOM 5000 ;20;Mindestpreismodell;toni.haensel;2020-11-19 16:51;609;0;;
+202;Vollwartungsvertragskonditionen ;25;bezogen auf 3 WEA;toni.haensel;2020-11-23 13:22;603;2022;;
+203;ersetzender Vollwartungsvertrag GE Referenznummer 1206652;20;;toni.haensel;2020-11-30 08:46;592;2021;;
+204;ersetzender Vollwartungsvertrag GE Referenznummer 1206652;25;;toni.haensel;2020-11-30 09:28;592;2021;;
+205;ersetzender Vollwartungsvertrag GE Referenznummer 1206652;20;;toni.haensel;2020-11-30 09:32;592;2021;;
+206;ersetzender Vollwartungsvertrag GE Referenznummer 1206652;25;;toni.haensel;2020-11-30 09:45;592;2021;;
+207;ersetzender Vollwartungsvertrag GE Referenznummer 1206652;20;;toni.haensel;2020-11-30 10:05;592;2021;;
+208;ersetzender Vollwartungsvertrag GE Referenznummer 1206652;25;;toni.haensel;2020-11-30 10:09;592;2021;;
+209;ersetzender Vollwartungsvertrag GE Referenznummer 1206652;20;;toni.haensel;2020-11-30 10:16;592;2021;;
+210;ersetzender Vollwartungsvertrag GE Referenznummer 1206652;25;;toni.haensel;2020-11-30 10:28;592;2021;;
+211;AOM 4000 Projektnummer SP-46710;15;Mindestpreismodell;toni.haensel;2020-11-30 11:49;610;0;;
+212;"Maintenance and Service Proposal - Type ""Premium""";20;;toni.haensel;2020-12-22 14:30;612;0;;
+213;"Maintenance and Service Proposal - Type ""Premium""";20;;toni.haensel;2020-12-22 14:45;613;0;;
+214;EPK Nichel (Mühlenfließ) S-04834-V03;20;;toni.haensel;2021-01-18 08:54;614;0;;frühstens nach 5 Betriebsjahren  mit Frist von 3 Monaten vor Ablauf des jeweiligen Betriebsjahres 
+215;AOM 4000;20;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20;toni.haensel;2021-01-25 16:10;617;0;;
+216;AOM 4000;20;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20;toni.haensel;2021-01-25 16:45;618;0;;
+217;AOM 4000;20;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20;toni.haensel;2021-01-25 16:57;619;0;;
+218;AOM 4000;20;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20;toni.haensel;2021-01-25 17:09;620;0;;
+219;AOM 4000;20;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20;toni.haensel;2021-01-26 18:28;621;0;;
+220;AOM 4000;20;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20;toni.haensel;2021-01-26 18:41;622;0;;
+221;AOM 4000;20;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20;toni.haensel;2021-01-26 18:51;623;0;;
+222;AOM 4000;20;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20;toni.haensel;2021-01-26 18:59;624;0;;
+223;AOM 5000;20;Konditionen wie bei Dobrowo/Retowo;toni.haensel;2021-01-28 08:34;627;0;;
+224;Enercon Servicepreise;20;fix+variabel Preismodell;toni.haensel;2021-01-28 10:49;631;0;;
+225;AOM 4000;20;Preise vorerst aus Indikation f. Banie IV abgleitet;toni.haensel;2021-01-28 11:28;632;0;;
+226;AOM 5000;20;Preise aus Indikation f. Banie IV abgleitet;toni.haensel;2021-01-28 11:32;632;0;;
+227;Indicative minimum LTSA prices;20;Minimum LTSA price per wind turbine over 20 years 628.000 EUR ;toni.haensel;2021-01-28 12:41;591;0;;
+228;Indicative minimum LTSA prices;20;Minimum LTSA price per wind turbine over 20 years 877.500 EUR;toni.haensel;2021-01-28 12:44;633;0;;
+229;Indicative minimum LTSA prices;20;Minimum LTSA price per wind turbine over 20 years 628.000 EUR;toni.haensel;2021-01-28 12:47;634;0;;
+230;Indicative minimum LTSA prices;20;Minimum LTSA price per wind turbine over 20 years 628.000 EUR;toni.haensel;2021-01-28 12:50;635;0;;
+231;Indicative minimum LTSA prices;20;Minimum LTSA price per wind turbine over 20 years 628.000 EUR;toni.haensel;2021-01-28 12:52;636;0;;
+232;Indicative minimum LTSA prices;20;Minimum LTSA price per wind turbine over 20 years 628.000 EUR;toni.haensel;2021-01-28 12:54;637;0;;
+233;Wartungsvertrag Premium ;15;Verl. um 5 Jahre vor Beginn des 15. Jahres möglich;toni.haensel;2021-01-29 08:00;638;0;;ordentliche Kündigung ausgeschlossen  Recht zur Kündigung aus ordentlichem Grund (Punkt 12.3)
+234;"Maintenance and Service Proposal - Type ""Premium""";20;;toni.haensel;2021-01-29 08:26;639;0;;
+235;AOM 5000;20;Verfügbarkeit Jahr 1: 96%, Jahr 2.20: 97%;toni.haensel;2021-01-29 19:05;642;0;;
+236;AOM 5000;20;Verfügbarkeit Jahr 1-20: 97%;toni.haensel;2021-02-01 08:42;643;0;;
+237;Servicevertrag ;20;;toni.haensel;2021-02-01 10:44;644;0;;
+238;Servicevertrag;20;;toni.haensel;2021-02-01 10:52;645;0;;
+239;Servicevertrag;20;;toni.haensel;2021-02-01 11:01;646;0;;
+240;Servicevertrag;20;;toni.haensel;2021-02-01 11:33;647;0;;
+241;Servicevertrag;20;;toni.haensel;2021-02-01 11:39;648;0;;
+242;Servicevertrag;20;;toni.haensel;2021-02-01 11:50;649;0;;
+243;Servicevertrag;20;;toni.haensel;2021-02-01 11:54;650;0;;
+244;Vollwartungsvertrag ;25;;toni.haensel;2021-02-01 12:43;651;0;;
+245;Vollwartungsvertrag;25;;toni.haensel;2021-02-01 12:51;652;0;;
+246;Vollwartungsvertrag;25;;toni.haensel;2021-02-01 14:32;653;0;;
+247;Vollwartungsvertrag;25;;toni.haensel;2021-02-01 14:46;654;0;;
+248;Vollwartungsvertrag;25;;toni.haensel;2021-02-01 15:09;655;0;;
+249;AOM 4000;20;Servicekooperation nach Jahr 5;toni.haensel;2021-02-01 17:35;660;0;;
+250;AOM 4000;20;Servicekooperation nach Jahr 5;toni.haensel;2021-02-01 17:45;661;0;;
+251;AOM 4000;20;;toni.haensel;2021-02-02 08:16;662;0;;Servicekooperation nach Jahr 5
+252;AOM 4000;20;;toni.haensel;2021-02-02 08:25;663;0;;Servicekooperation nach Jahr 5
+253;AOM 4000;20;;toni.haensel;2021-02-02 08:36;664;0;;Servicekooperation nach Jahr 5
+254;AOM 4000;20;;toni.haensel;2021-02-02 08:41;665;0;;Servicekooperation nach Jahr 5
+255;AOM 4000;20;;toni.haensel;2021-02-02 08:54;666;0;;Servicekooperation nach Jahr 5
+256;Vollwartung Dargikowo;25;;toni.haensel;2021-02-02 10:12;667;2018;;
+257;Servicepreise 20 Jahre ;20;Angebot unter Berücksichtigung von Komponententausch in den Jahren 10-15 resultierend aus TGA;toni.haensel;2021-02-08 08:51;668;2021;;k.A.
+258;Servicepreise 25 Jahre ;25;Angebot unter Berücksichtigung von Komponententausch in den Jahren 10-15 resultierend aus TGA;toni.haensel;2021-02-08 09:18;668;2021;;k.A.
+259;Premium Service Paket ;20;;toni.haensel;2021-02-08 16:04;672;2021;;
+260;SAA ;25;;toni.haensel;2021-02-08 16:39;673;0;;
+261;AOM 5000;20;;toni.haensel;2021-02-08 16:59;674;2021;;
+262;AOM 5000;20;;toni.haensel;2021-02-08 17:08;675;2021;;
+263;AOM 5000;20;;toni.haensel;2021-02-08 17:17;676;2021;;
+264;AOM 5000;20;;toni.haensel;2021-02-08 17:21;548;2021;;
+265;AOM 5000;20;;toni.haensel;2021-02-09 15:55;677;2021;;
+266;AOM 5000;20;;toni.haensel;2021-02-09 16:03;678;2021;;
+267;AOM 5000;20;;toni.haensel;2021-02-09 16:08;678;2021;;
+268;AOM 4000;25;Servicekooperation nach Jahr 5  Verlängerungsoption nach Jahr 20;toni.haensel;2021-02-09 16:21;679;0;;
+269;AOM 4000;25;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20;toni.haensel;2021-02-09 16:34;680;0;;
+270;Vollwartungsvertrag;20;nach Jahr 5;toni.haensel;2021-02-09 16:59;681;0;;
+271;AOM 5000;20;;toni.haensel;2021-02-10 07:59;683;0;;
+272;AOM 5000;20;;toni.haensel;2021-02-10 08:12;682;0;;
+273;AOM 5000;20;;toni.haensel;2021-02-10 08:22;684;0;;
+274;AOM 5000;20;;toni.haensel;2021-02-10 08:40;685;0;;
+275;AOM 5000;20;;toni.haensel;2021-02-10 08:52;686;0;;
+276;AOM 5000;20;;toni.haensel;2021-02-10 09:41;687;0;;
+277;AOM 5000;20;;toni.haensel;2021-02-10 09:49;688;0;;
+278;AOM 5000;20;;toni.haensel;2021-02-10 09:55;689;0;;
+279;AOM 5000;20;;toni.haensel;2021-02-10 10:01;690;0;;
+280;"Service contract ""Premium"" ";20;;toni.haensel;2021-02-10 10:15;691;0;;
+281;AOM 5000;20;;toni.haensel;2021-02-10 10:45;692;0;;
+282;AOM 5000;20;;toni.haensel;2021-02-10 11:26;692;0;;
+283;AOM 5000;20;;toni.haensel;2021-02-10 11:34;692;0;;
+284;AOM 5000;20;;toni.haensel;2021-02-10 11:44;692;0;;
+285;AOM 5000;20;;toni.haensel;2021-02-10 11:53;692;0;;
+286;AOM 5000;20;;toni.haensel;2021-02-10 12:29;692;0;;
+287;AOM 5000;20;;toni.haensel;2021-02-10 12:41;693;0;;
+288;AOM 5000;20;;toni.haensel;2021-02-10 12:46;693;0;;
+289;AOM 5000;20;;toni.haensel;2021-02-10 14:29;693;0;;
+290;AOM 5000;20;;toni.haensel;2021-02-10 14:36;693;0;;
+291;AOM 5000;20;Konditionen für Mischlayout mit 10x V136 & 2 x V117;toni.haensel;2021-02-10 14:45;693;0;;
+292;AOM 5000;20;;toni.haensel;2021-02-10 17:16;696;0;;
+293;AOM 5000;20;;toni.haensel;2021-02-10 17:24;696;0;;
+294;AOM 5000;20;;toni.haensel;2021-02-10 17:31;696;0;;
+295;Service Paket Premium ;20;;toni.haensel;2021-02-11 09:36;694;0;;
+296;Servicevertrag;20;;toni.haensel;2021-02-11 09:47;695;0;;
+297;Vollwartungsvertragskonditionen;25;bezogen auf 3 WEA;toni.haensel;2021-02-11 11:15;697;2022;;
+298;AOM 5000;20;;toni.haensel;2021-02-11 11:51;698;0;;
+299;AOM 5000;20;;toni.haensel;2021-02-11 11:57;698;0;;
+300;AOM 5000;20;;toni.haensel;2021-02-11 12:05;698;0;;
+301;AOM 5000;20;;toni.haensel;2021-02-11 12:10;698;0;;
+302;AOM 5000;20;;toni.haensel;2021-02-11 12:19;698;0;;
+303;AOM 5000;20;;toni.haensel;2021-02-11 12:24;698;0;;
+304;AOM 5000;20;;toni.haensel;2021-02-11 12:33;699;0;;
+305;AOM 5000;20;;toni.haensel;2021-02-11 13:38;699;0;;
+306;AOM 5000;20;;toni.haensel;2021-02-11 13:45;699;0;;
+307;AOM 5000;20;;toni.haensel;2021-02-11 14:11;699;0;;
+308;AOM 5000;20;Konditionen für Mischlayout mit 10x V136 & 2 x V117;toni.haensel;2021-02-11 14:13;699;0;;
+309;AOM 5000;20;;toni.haensel;2021-02-11 14:25;700;0;;
+310;AOM 5000;20;;toni.haensel;2021-02-11 14:30;700;0;;
+311;AOM 5000;20;;toni.haensel;2021-02-11 14:35;700;0;;
+312;AOM 5000;20;Konditionen für Mischlayout mit 10x V136 & 2 x V117;toni.haensel;2021-02-11 14:40;700;0;;
+313;AOM 5000;20;;toni.haensel;2021-02-11 14:51;701;0;;
+314;AOM 5000;20;;toni.haensel;2021-02-11 15:11;701;0;;
+315;AOM 5000;20;;toni.haensel;2021-02-11 15:16;701;0;;
+316;AOM 5000;20;Konditionen für Mischlayout mit 10x V136 & 2 x V117;toni.haensel;2021-02-11 15:19;701;0;;
+317;AOM 5000;20;;toni.haensel;2021-02-11 15:32;702;0;;
+318;AOM 5000;20;;toni.haensel;2021-02-11 15:42;703;0;;
+319;AOM 5000;20;;toni.haensel;2021-02-11 15:50;704;0;;
+320;AOM 5000;20;;toni.haensel;2021-02-11 15:58;705;0;;
+321;AOM 5000;20;;toni.haensel;2021-02-12 08:40;706;0;;
+322;AOM 5000;20;;toni.haensel;2021-02-12 08:46;706;0;;
+323;AOM 5000;20;;toni.haensel;2021-02-12 08:55;706;0;;
+324;AOM 5000;20;;toni.haensel;2021-02-12 09:22;706;0;;
+325;AOM 5000;20;;toni.haensel;2021-02-12 10:12;706;0;;
+326;AOM 5000;20;;toni.haensel;2021-02-12 10:18;706;0;;
+327;AOM 5000;20;;toni.haensel;2021-02-12 11:22;707;0;;
+328;AOM 5000;20;;toni.haensel;2021-02-12 11:28;707;0;;
+329;AOM 5000;20;;toni.haensel;2021-02-12 11:33;707;0;;
+330;AOM 5000;20;;toni.haensel;2021-02-12 11:38;707;0;;
+331;AOM 5000;20;Konditionen für Mischlayout mit 10x V136 & 2 x V117;toni.haensel;2021-02-12 11:44;707;0;;
+332;AOM 5000;20;;toni.haensel;2021-02-12 11:55;708;0;;
+333;AOM 5000;20;;toni.haensel;2021-02-12 12:00;708;0;;
+334;AOM 5000;20;;toni.haensel;2021-02-12 12:11;709;0;;
+335;AOM 5000;20;;toni.haensel;2021-02-12 12:54;709;0;;
+336;AOM 5000;20;;toni.haensel;2021-02-12 14:25;710;0;;
+337;AOM 5000;20;;toni.haensel;2021-02-12 14:30;710;0;;
+338;AOM 5000;20;;toni.haensel;2021-02-12 14:35;710;0;;
+339;AOM 5000;20;Konditionen für Mischlayout mit 10x V136 & 2 x V117;toni.haensel;2021-02-12 14:39;710;0;;
+340;AOM 5000;20;;toni.haensel;2021-02-12 14:57;711;0;;
+341;AOM 5000;20;;toni.haensel;2021-02-12 15:03;711;0;;
+342;AOM 5000;20;;toni.haensel;2021-02-12 15:08;711;0;;
+343;AOM 5000;20;Konditionen für Mischlayout mit 10x V136 & 2 x V117;toni.haensel;2021-02-12 15:12;711;0;;
+344;AOM 5000;20;;toni.haensel;2021-02-12 16:46;712;0;;
+345;AOM 5000;20;;toni.haensel;2021-02-12 16:51;712;0;;
+346;AOM 5000;20;;toni.haensel;2021-02-12 16:57;712;0;;
+347;AOM 5000;20;;toni.haensel;2021-02-12 17:01;712;0;;
+348;AOM 5000;20;;toni.haensel;2021-02-12 17:05;712;0;;
+349;AOM 5000;20;;toni.haensel;2021-02-12 17:10;712;0;;
+350;AOM 5000;20;;toni.haensel;2021-02-12 17:24;713;0;;
+351;AOM 5000;20;;toni.haensel;2021-02-12 17:29;713;0;;
+352;AOM 5000;20;;toni.haensel;2021-02-15 10:14;714;0;;
+353;AOM 5000;20;;toni.haensel;2021-02-15 10:27;714;0;;
+354;AOM 5000;20;;toni.haensel;2021-02-15 17:19;715;0;;
+355;AOM 5000;20;;toni.haensel;2021-02-15 17:23;715;0;;
+356;AOM 5000;20;;toni.haensel;2021-02-15 17:29;715;0;;
+357;AOM 5000;20;;toni.haensel;2021-02-15 17:34;715;0;;
+358;AOM 5000;20;;toni.haensel;2021-02-15 17:39;715;0;;
+359;AOM 5000;20;;toni.haensel;2021-02-15 18:32;715;0;;
+360;AOM 5000;20;;toni.haensel;2021-02-15 18:45;716;0;;
+361;AOM 5000;20;;toni.haensel;2021-02-15 18:49;716;0;;
+362;AOM 5000;20;;toni.haensel;2021-02-15 18:54;716;0;;
+363;AOM 5000;20;;toni.haensel;2021-02-15 18:59;716;0;;
+364;AOM 5000;20;Konditionen für Mischlayout mit 10x V136 & 2 x V117;toni.haensel;2021-02-15 19:06;716;0;;
+365;AOM 5000;20;;toni.haensel;2021-02-16 08:21;717;0;;
+366;AOM 5000;20;;toni.haensel;2021-02-16 08:25;717;0;;
+367;AOM 5000;20;;toni.haensel;2021-02-16 08:45;717;0;;
+368;AOM 5000;20;;toni.haensel;2021-02-16 08:52;717;0;;
+369;AOM 5000;20;;toni.haensel;2021-02-16 08:56;717;0;;
+370;AOM 5000;20;;toni.haensel;2021-02-16 09:13;717;0;;
+371;AOM 5000;20;;toni.haensel;2021-02-16 12:28;718;0;;
+372;AOM 5000;20;;toni.haensel;2021-02-16 12:34;718;0;;
+373;AOM 5000;20;;toni.haensel;2021-02-16 12:39;718;0;;
+374;AOM 5000;20;;toni.haensel;2021-02-16 12:43;718;0;;
+375;AOM 5000;20;Konditionen für Mischlayout mit 10x V136 & 2 x V117;toni.haensel;2021-02-16 12:48;718;0;;
+376;AOM 5000;20;;toni.haensel;2021-02-16 12:57;719;0;;
+377;Vollwartungsvertragskonditionen;25;bezogen auf 3 WEA;toni.haensel;2021-02-17 08:18;720;2022;;
+378;Vollwartungsvertragskonditionen;25;bezogen auf 3 WEA;toni.haensel;2021-02-17 08:32;721;2022;;
+379;Vollwartungsvertragskonditionen;25;bezogen auf 3 WEA;toni.haensel;2021-02-17 08:43;722;2022;;
+380;Vollwartungsvertragskonditionen;20;Option 1 +25k EUR/WEA im KV  Option 2 +50k EUR/WEA gleichmaeßig ueber FSA Laufzeit verteilt ;toni.haensel;2021-02-17 09:40;723;2021;;
+381;Vollwartungsvertragskonditionen;25;Option 1 +25k EUR/WEA im KV  Option 2 +50k EUR/WEA gleichmaeßig ueber FSA Laufzeit verteilt;toni.haensel;2021-02-17 09:46;723;2021;;
+382;Full Maintenance and Service Agreement ;20;;toni.haensel;2021-02-17 10:46;724;0;;
+383;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 10:54;724;0;;
+384;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 10:59;724;0;;
+385;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 11:25;724;0;;
+386;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 11:32;724;0;;
+387;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 11:58;725;0;;
+388;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 12:06;725;0;;
+389;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 12:11;725;0;;
+390;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 12:15;725;0;;
+391;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 13:14;725;0;;
+392;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 13:42;726;0;;
+393;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 14:00;726;0;;
+394;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 14:06;726;0;;
+395;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 14:10;726;0;;
+396;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-17 14:14;726;0;;
+397;AOM 5000;20;Achtung: Servicepreis auf Grundlage der Servicepreis ID 313, aber in Quell-ID 701 gibt es zur V117 3.6 weitere Servicepreise;toni.haensel;2021-02-18 10:23;727;0;;
+398;Wartungsvertrag Premium;15;Verl. um 5 Jahre vor Beginn des 15. Jahres möglich;toni.haensel;2021-02-18 10:50;729;0;;ordentliche Kündigung ausgeschlossen  Recht zur Kündigung aus ordentlichem Grund (Punkt 12.3)
+399;EPK Preiskonditionen ;20;Prozentsätze werden für Betriebsjahre bei der Ermittlung der variablen Servicepreise angewendet (s. Spalte zu entsprechenden Jahren)  Bsp. für Jahr 8 mit 12.000 MWh: 80%*[25.000 EUR + (12.000 MWh x 4,5 EUR/MWh)]=63.200 EUR;toni.haensel;2021-02-18 11:59;730;0;;
+400;AOM 5000;20;;toni.haensel;2021-02-18 12:40;731;0;;
+401;SGRE Servicepreise;25;Servicepreisannahme basiert auf Servicepreis-ID 188;toni.haensel;2021-02-18 12:57;732;0;;
+402;Full Maintenance and Service Agreement;20;Servicepreise uebernommen von Angebot in Servicepreis-ID 65;toni.haensel;2021-02-18 14:19;733;0;;
+403;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-18 14:52;728;0;;
+404;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-18 14:57;728;0;;
+405;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-18 15:02;728;0;;
+406;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-18 15:07;728;0;;
+407;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-18 15:11;728;0;;
+408;Wartungsvertrag Premium;15;Vertrags-Nr. NFR-DERV-01  Verlaengerungsoption spaetestens 12 Monate vor Ablauf der Vertragslaufzeit;toni.haensel;2021-02-19 08:22;611;0;;
+409;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-19 08:55;734;0;;
+410;Full Maintenance and Service Agreement;20;Mischlayout 4x SG 2.6-114 & 2x SG97-2.1;toni.haensel;2021-02-19 09:25;734;0;;
+411;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-19 10:19;735;0;;
+412;Full Maintenance and Service Agreement;20;Mischlayout 4x SG 2.6-114 & 2x SG97-2.1;toni.haensel;2021-02-23 15:54;735;0;;
+413;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-23 16:04;736;0;;
+414;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-23 16:14;736;0;;
+415;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-23 16:22;736;0;;
+416;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-23 16:27;736;0;;
+417;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-23 16:32;736;0;;
+418;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-23 17:06;737;0;;
+419;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-23 17:11;737;0;;
+420;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-23 19:19;737;0;;
+421;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-23 19:23;737;0;;
+422;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-23 19:27;737;0;;
+423;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-24 16:12;738;0;;
+424;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-24 16:16;738;0;;
+425;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-24 16:25;738;0;;
+426;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-24 16:29;738;0;;
+427;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-24 16:35;738;0;;
+428;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-24 16:46;739;0;;
+429;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-24 16:54;739;0;;
+430;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-24 17:05;739;0;;
+431;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-24 17:13;740;0;;
+432;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-24 17:18;740;0;;
+433;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-25 08:46;740;0;;
+434;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-25 11:34;740;0;;
+435;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-25 11:39;740;0;;
+436;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-25 11:58;741;0;;
+437;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-25 12:03;741;0;;
+438;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-25 12:30;741;0;;
+439;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-25 12:34;741;0;;
+440;Full Maintenance and Service Agreement;20;;toni.haensel;2021-02-25 12:37;741;0;;
+441;AOM 5000;20;;ivaylo.petrov;2021-03-19 17:01;742;2022;;
+442;Vollwartungsvertrag;20;;ivaylo.petrov;2021-04-07 14:06;744;2021;;nach Jahr 5 und 20
+443;Vollwartungsvertrag ;25;;ivaylo.petrov;2021-04-07 14:16;745;2021;;nach Jahr 5 und 20
+444;Vollwartungsvertrag;20;;ivaylo.petrov;2021-04-07 14:45;746;0;;nach Jahr 5 und 20
+445;Vollwartung Dargikowo;20;;driss.marzouk;2021-04-12 10:31;747;0;;
+446;Vollwartung Karlino;20;;driss.marzouk;2021-04-12 11:04;747;0;;
+447;Vollwartung Dargikowo;20;;driss.marzouk;2021-04-12 12:30;748;0;;
+448;Vollwartung Karlino;20;;driss.marzouk;2021-04-12 12:44;748;0;;
+449;Vollwartung Dargikowo;20;;driss.marzouk;2021-04-16 09:27;749;0;;
+450;Vollwartung Karlino;20;;driss.marzouk;2021-04-16 09:42;749;0;;
+451;Vollwartung Dargikowo;20;;driss.marzouk;2021-04-16 10:28;750;0;;
+452;Vollwartung Karlino;20;;driss.marzouk;2021-04-16 10:52;750;0;;
+453;Vollwartung Dargikowo;20;;driss.marzouk;2021-04-16 11:18;751;0;;
+454;Vollwartung Karlino;20;;driss.marzouk;2021-04-16 11:30;751;0;;
+455;Vollwartungsvertrag;25;Verlängerungsoption nach Jahr 20;driss.marzouk;2021-04-19 12:04;752;0;;
+456;AOM 4000;25;Servicekooperation;ivaylo.petrov;2021-04-28 16:52;753;0;;nach Jahr 5 und 20
+457;AOM 4000;25;;ivaylo.petrov;2021-04-28 19:51;754;0;;nach Jahr 5 und 20
+458;Premium;20;;ivaylo.petrov;2021-05-07 14:41;755;0;;nach Jahr 15
+459;EPK;15;;ivaylo.petrov;2021-05-12 10:35;756;0;;
+460;EPK;15;;ivaylo.petrov;2021-05-12 10:48;757;0;;
+463;AOM 4000;25;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20 (+5 Jahre);marc.speri;2021-07-13 09:32;758;0;;
+464;AOM 4000;25;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20 (+5 Jahre);marc.speri;2021-07-13 09:36;760;0;;
+465;Premium;30;Option production-based availability warranty;marc.speri;2022-03-29 12:34;764;0;;
+466;Premium;30;Option time-based availability warranty;marc.speri;2022-03-29 12:41;764;0;;
+467;AOM 5000;20;energetische Verfügbarkeit;marc.speri;2022-04-01 08:58;766;0;;nach Ende eines jeden 5. Betriebsjahres (nicht vor DNP+1) mit 12-monatiger Kündigungsfrist + exit fee i.H.v. 20% Wartungskosten der noch verbleibenden Vertragslaufzeit
+468;AOM 5000;20;energetische Verfügbarkeit;marc.speri;2022-04-01 09:02;766;0;;nach Ende eines jeden 5. Betriebsjahres (nicht vor DNP+1) mit 12-monatiger Kündigungsfrist + exit fee i.H.v. 20% Wartungskosten der noch verbleibenden Vertragslaufzeit
+469;EPK;20;;marc.speri;2022-04-01 09:12;767;0;;
+470;EPK;25;;marc.speri;2022-04-01 09:14;767;0;;
+471;AOM 5000;20;;driss.marzouk;2022-04-01 12:28;768;0;;
+472;EPK;20;;driss.marzouk;2022-04-04 12:14;769;0;;Für eine vorzeitige Beendigung muss 10% der Servicepreisvergütung von der übrigen Vertragslaufzeit bezahlt werden
+473;AOM 5000;20;;driss.marzouk;2022-04-04 15:04;770;0;;
+474;AOM 5000;20;;driss.marzouk;2022-04-04 15:39;770;0;;
+475;Premium;20;Technische Verfügbarkeit  Grenzwert: P75- 150.000 kWh;marc.speri;2022-04-06 16:46;774;0;;
+476;AOM 4000;25;gem. Rahmenvereinbarung,  technische Verfügbarkeit;marc.speri;2022-04-06 17:04;775;0;;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20 (+5 Jahre)
+477;EPK;20;Technische Verfügbarkeit;marc.speri;2022-04-07 09:02;776;0;;
+478;AOM 5000;20;Preise in PLN,  energetische Verfügbarkeit;marc.speri;2022-04-07 09:20;777;0;121400;
+479;AOM 4000;20;Technische Verfügbarkeit;marc.speri;2022-04-07 09:28;778;0;;
+480;AOM 4000;20;Technische Verfügbarkeit;marc.speri;2022-04-07 09:32;778;0;;
+481;AOM 5000;20;Indikation;marc.speri;2022-04-11 10:05;780;0;;
+482;AOM ;20;Indikation;marc.speri;2022-04-11 13:04;781;0;;
+483;Premium;20;Indikation;marc.speri;2022-04-11 13:06;781;0;;
+484;Vollwartungsvertrag;20;Indikation;marc.speri;2022-04-11 13:06;781;0;;
+485;Full Maintenance Contract;20;Energetische Verfügbarkeit;marc.speri;2022-04-11 13:25;782;0;;
+486;AOM 4000;25;gem. Rahmenvereinbarung,  technische Verfügbarkeit;marc.speri;2022-04-20 10:05;785;0;;Servicekooperation nach Jahr 5 möglich  Verlängerungsoption nach Jahr 20 (+5 Jahre)
+487;Vollwartungsvertrag;25;technische Verfügbarkeit;marc.speri;2022-04-20 10:14;786;2021;;
+488;EPK I ;20;Technische Verfügbarkeit;marc.speri;2022-05-03 10:12;790;0;;
+489;Premium;20;Laufzeit 15 Jahre,  Verlängerungsoption 5 Jahre;marc.speri;2022-05-31 17:19;791;0;;ordentliche Kündigung ausgeschlossen
+490;AOM 4000;25;Servicekooperation nach Jahr 5 möglich  Laufzeit 20 Jahre + Verlängerungsoption 5 Jahre;marc.speri;2022-05-31 17:45;792;0;;
+491;Premium;20;Technische Verfügbarkeit;marc.speri;2022-05-31 17:56;793;0;11895;nein
+493;AOM 4000;25;Laufzeit 20 jahre + Verlängerungsoption 5 Jahre  Technische Verfügbarkeit;marc.speri;2022-06-22 12:07;796;0;;Bei ausbleibender Mängelnacherfüllung, Betriebsaufgabe, zufälligem Untergang der WEA, Verzug wesentlicher Vertragspflichten
+494;Premium;20;Technische Verfügbarkeit  zusätzliches,  ertragsabhängiges Entgelt ab Erreichen des Ertrages [prognostizierter P75-Wert/WKA abzüglich 150.000kWh] nur für den,  diesen Wert übersteigenden Ertrag;marc.speri;2022-07-01 13:13;797;0;;
+495;EPK;20;Jährliches Cap pro WEA: 100.000 €;marc.speri;2022-07-01 14:48;798;0;;
+496;Premium;20;Technische Verfügbarkeit  zusätzliches,  ertragsabhängiges Entgelt ab Erreichen des Ertrages [prognostizierter P75-Wert/WKA abzüglich 150.000kWh] nur für den diesen Wert übersteigenden Ertrag;marc.speri;2022-07-01 17:14;799;0;;
+497;Premium;20;Technische Verfügbarkeit  zusätzliches ertragsabhängiges Entgelt ab Erreichen des Ertrages [prognostizierter P75-Wert/WKA abzüglich 150.000kWh] nur für den diesen Wert übersteigenden Ertrag;marc.speri;2022-07-01 17:27;800;0;;
+498;Full scope services;20;Preise in USD  Indexierung: CPI (n)%= CPI fluctuation rate of year n and year n-1 w Escalation rate (n)=Project country CPI (n)% w Price of year n=Base price *?!n-1  base price year (1 + Escalation rate (n));marc.speri;2022-07-04 17:44;802;2022;;
+499;Full scope services;20;Preise in USD  Indexierung: CPI (n)%= CPI fluctuation rate of year n and year n-1 w Escalation rate (n)=Project country CPI (n)% w Price of year n=Base price *?!n-1  base price year (1 + Escalation rate (n));marc.speri;2022-07-04 17:50;803;2022;;
+500;Vollwartungsvertrag;25;Energetische Verfügbarkeit  Sämtliche Zahlungen werden jährlich,  am ersten Tag des Monats dem des Basisjahres folgenden Jahres und in jedem darauffolgenden Jahr gemäß Inflationsindex des Vertrages angepasst. Die durchschnittliche jährliche Anpassung wird zwei Prozent (2 %) nicht unterschreiten.;marc.speri;2022-07-06 13:31;804;0;;Kündigung wegen wesentlicher Vertragsverletzung und/oder Insolvenz
+501;Service & Maintenance;20;Technische Verfügbarkeit  Preise in ZAR  Indicative currency split: 50% Euros / 50% ZAR  Exchange rate used for this offer is EUR 1 = 16.90 ZAR;marc.speri;2022-07-06 17:42;805;0;;
+502;Service & Maintenance;20;Technische Verfügbarkeit  Preise in ZAR  Indicative currency split: 50% Euros / 50% ZAR  Exchange rate used for this offer is EUR 1 = 16.90 ZAR;marc.speri;2022-07-06 17:44;806;0;;
+503;Premium;20;Technische Verfügbarkeit  Wechselkurs EUR-ZAR 16.82;marc.speri;2022-07-08 11:41;807;0;;
+504;Premium;20;Technische Verfügbarkeit  zusätzliches,  ertragsabhängiges Entgelt ab Erreichen des Ertrages [prognostizierter P75-Wert/WKA abzüglich 150.000kWh] nur für den, diesen Wert übersteigenden Ertrag;marc.speri;2022-07-11 16:25;797;0;;
+505;Premium;20;Technische Verfügbarkeit  zusätzliches ertragsabhängiges Entgelt ab Erreichen des Ertrages [prognostizierter P75-Wert/WKA abzüglich 150.000kWh] nur für den diesen Wert übersteigenden Ertrag;marc.speri;2022-07-13 15:44;808;0;;
+506;Vollwartungsvertrag;20;;marc.speri;2022-07-13 17:26;809;0;;
+507;Full scope services;20;Preise in USD  Indexierung: CPI (n)%= CPI fluctuation rate of year n and year n-1 w Escalation rate (n)=Project country CPI (n)% w Price of year n=Base price *?!n-1  base price year (1 + Escalation rate (n));marc.speri;2022-07-29 13:06;811;2022;;
+508;AOM 4000;25;;ivaylo.petrov;2022-08-09 08:48;816;2023;;nach Jahr 20
+509;AOM 5000;20;;marc.speri;2022-08-10 10:05;817;0;;
+510;AOM 5000;25;;marc.speri;2022-08-10 10:22;818;0;;
+512;Premium;20;Technische Verfügbarkeit  zusätzliches  ertragsabhängiges Entgelt ab Erreichen des Ertrages [prognostizierter P75-Wert/WKA abzüglich 150.000kWh] nur für den,  diesen Wert übersteigenden Ertrag;marc.speri;2022-09-07 13:49;822;0;;
+513;Premium;20;;marc.speri;2022-09-26 10:10;825;0;;
+515;AOM 5000;25;produktionsbasierte Verfügbarkeit;marc.speri;2022-10-24 16:33;826;0;;
+516;AOM 5000;20;produktionsbasierte Verfügbarkeit;marc.speri;2022-10-24 16:36;826;0;;
+517;AOM 5000;25;produktionsbasierte Verfügbarkeit;marc.speri;2022-10-24 16:38;826;0;;
+518;AOM 5000;20;produktionsbasierte Verfügbarkeit;marc.speri;2022-10-24 16:43;826;0;;
+519;AOM 5000;25;produktionsbasierte Verfügbarkeit;marc.speri;2022-10-24 16:46;826;0;;
+520;AOM 5000;20;produktionsbasierte Verfügbarkeit;marc.speri;2022-10-24 16:49;826;0;;
+521;AOM 5000;25;energetische Verfügbarkeit 98%;marc.speri;2022-11-01 13:17;827;0;;
+522;AOM 5000;25;energetische Verfügbarkeit 98%;marc.speri;2022-11-01 13:19;827;0;;
+523;EPK;20;;marc.speri;2022-11-08 10:33;829;0;;
+524;EPK;20;;marc.speri;2022-11-24 12:14;831;0;;
+525;EPK;20;;marc.speri;2023-01-18 13:09;832;0;;
+526;AOM 4000;25;technische Verfügbarkeit;marc.speri;2023-01-20 17:02;833;0;;
+527;Premium;20;Energetische Verfügbarkeit;marc.speri;2023-01-24 11:49;834;0;;
+528;Premium;20;Technische Verfügbarkeit;marc.speri;2023-01-24 11:52;834;0;;
+529;Service-Vollwartung;20;Grenzwert für variable Vergütung: P75-Ertragswert;marc.speri;2023-01-24 13:58;835;0;;
+530;Premium;21;technische Verfügbarkeit  Laufzeit 15 Jahre + 6 Jahre optional;marc.speri;2023-01-27 14:16;836;0;;
+531;AOM5000;25;;marc.speri;2023-02-09 16:50;828;0;;
+532;Premium;20;;marc.speri;2023-02-09 17:27;838;0;;
+533;AOM 5000;25;energetische Verfügbarkeit;marc.speri;2023-02-14 13:16;840;0;;
+534;AOM 5000;25;energetische Verfügbarkeit;marc.speri;2023-02-14 13:20;840;0;;
+535;AOM 5000;25;energetische Verfügbarkeit;marc.speri;2023-02-14 13:23;840;0;;
+536;Full service;20;"WTG price composed of price components in CNY and USD. Exchange rates applied for WTG price (USD) in databse: CNY/USD: 0,1458  The service prices are subject to escalation per the following formula:  	CPI (n)%= CPI fluctuation rate of year n and year n-1 	Escalation rate (n)=Project country CPI (n)% 	Price of year n=Base price *?_(Base price year)^(n-1)¦?(1+Escalation rate (i))  ?";marc.speri;2023-02-20 17:30;841;0;;
+537;Premium;20;Technische Verfügbarkeit;marc.speri;2023-02-20 17:52;842;0;;
+538;AOM 5000;25;energetische Verfügbarkeit;marc.speri;2023-02-28 08:45;844;0;;
+539;AOM 5000;25;energetische Verfügbarkeit;marc.speri;2023-02-28 08:48;844;0;;
+540;AOM 5000;25;energetische Verfügbarkeit;marc.speri;2023-02-28 08:55;845;0;;
+541;AOM 5000;25;energetische Verfügbarkeit;marc.speri;2023-02-28 08:56;845;0;;
+542;AOM 5000;20;energetische Verfügbarkeit,  NH 119 m;marc.speri;2023-03-17 16:37;846;0;;
+543;AOM 5000;20;energetische Verfügbarkeit,  NH 169m;marc.speri;2023-03-17 16:39;846;0;;
+544;Vollwartungsvertrag;20;technische Verfügbarkeit;marc.speri;2023-04-05 14:23;847;0;;
+545;Vollwartungsvertrag;20;technische Verfügbarkeit;marc.speri;2023-04-05 14:33;848;0;;
+546;Vollwartungsvertrag;20;technische Verfügbarkeit;marc.speri;2023-04-05 14:35;849;0;;
+547;EPK;20;;marc.speri;2023-04-21 09:10;821;0;;
+548;Premium;20;zusätzliches,  ertragsabhängiges Entgelt ab Erreichen des Ertrages [prognostizierter P75-Wert/WKA abzüglich 150.000kWh] nur für den,  diesen Wert übersteigenden Ertrag:;marc.speri;2023-04-21 09:24;850;0;;
+549;Premium;20;NH 118 m, technische Verfügbarkeit, Zusätzliches ertragsabhängiges Entgelt ab Erreichen des Ertrages (prognostizierter P75-Wert/WEA abzüglich 150,000 kWh)  Vertragsjahre 1 – 20:;marc.speri;2023-04-24 08:45;851;0;;
+550;Premium;20;NH 164 m, technische Verfügbarkeit, zusätzliches ertragsabhängiges Entgelt ab Erreichen des Ertrages (prognostizierter P75-Wert/WEA abzüglich 150,000 kWh);marc.speri;2023-04-24 08:48;851;0;;
+551;AOM 4000;20;98% Verfügbarkeit, energetisch oder technisch, Abrechnungszeitraum 60 Monate;marc.speri;2023-05-05 08:56;854;0;;
+552;AOM 4000;25;Verlängerungsoption nach Jahr 20;ivaylo.petrov;2023-06-26 13:28;857;0;;nein
+553;Vollwartungsvertrag;5;technische Verfügbarkeit;kevin.pietka;2023-07-31 10:29;867;0;;
+554;Vollwartungsvertrag;5;technische Verfügbarkeit;kevin.pietka;2023-07-31 10:59;868;0;;
+555;Vollwartungsvertrag;5;technische Verfügbarkeit;kevin.pietka;2023-07-31 11:07;869;0;;
+556;EPK;20;technische Verfügbarkeit;kevin.pietka;2023-08-02 11:21;870;0;109294;
+557;EPK;20;technische Verfügbarkeit;kevin.pietka;2023-08-02 11:47;858;0;20486.3;
+558;Full O&M services;20;The prices are in EUR and ZAR. EUR/ZaR: 20,25;kevin.pietka;2023-08-23 14:23;871;0;;
+559;AOM 5000;20;;kevin.pietka;2023-08-23 14:29;872;0;;
+560;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 15:05;860;0;;
+561;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 15:18;862;0;;
+562;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 15:25;863;0;;
+563;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 15:30;864;0;;
+564;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 15:38;865;0;;
+565;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 15:42;860;0;;
+566;EPK;20;;kevin.pietka;2023-08-23 15:55;874;0;;
+567;EPK;20;;kevin.pietka;2023-08-23 15:58;875;0;;
+568;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 16:02;862;0;;
+569;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 16:09;863;0;;
+570;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 16:17;864;0;;
+571;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 16:24;865;0;;
+572;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 16:28;861;0;;
+573;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 16:31;861;0;;
+574;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 16:41;861;0;;
+575;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-23 16:44;861;0;;
+576;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-24 10:31;860;0;;
+577;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-24 10:37;860;0;;
+578;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-24 10:44;862;0;;
+579;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-24 10:47;862;0;;
+580;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-24 10:58;863;0;;
+581;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-24 11:02;863;0;;
+582;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-24 11:08;864;0;;
+583;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-24 11:11;864;0;;
+584;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-24 11:21;865;0;;
+585;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-08-24 11:24;865;0;;
+586;Premium;20;technische Verfügbarkeit;kevin.pietka;2023-08-24 11:33;876;0;;
+587;Premium;20;technische Verfügbarkeit;kevin.pietka;2023-08-24 11:41;877;0;;
+588;Premium;20;technische Verfügbarkeit;kevin.pietka;2023-09-05 16:35;883;0;;
+589;AOM4000;25;Konditionen für 3x V172-7.2 NH 175 m + 1x V150-6.0 NH 169 m;marc.speri;2023-09-20 10:11;865;0;;
+590;Premium;25;;kevin.pietka;2023-09-25 09:45;884;0;;
+591;Premium;20;technische Verfügbarkeit;kevin.pietka;2023-09-25 15:10;885;0;;
+592;Premium;20;technische Verfügbarkeit;kevin.pietka;2023-09-25 15:18;885;0;;
+593;Premium;20;technische Verfügbarkeit;kevin.pietka;2023-09-25 15:51;887;0;;
+594;Premium;20;technische Verfügbarkeit;kevin.pietka;2023-09-25 15:54;887;0;;
+595;Premium;20;;kevin.pietka;2023-09-25 16:05;888;0;;
+596;Premium;20;technische Verfügbarkeit  Servicepreise für N175 nicht gemäß Angebot;kevin.pietka;2023-09-25 16:52;889;0;;
+597;EPK;20;;kevin.pietka;2023-09-29 10:54;890;0;;
+598;AOM 4000;25;technische Verfügbarkeit;kevin.pietka;2023-10-09 09:10;894;0;;
+599;AOM 5000;25;NH 175m  technische Verfügbarkeit;kevin.pietka;2023-10-09 10:15;895;0;;
+600;AOM 5000;25;NH 199m  technische Verfügbarkeit;kevin.pietka;2023-10-09 10:30;895;0;;
+601;EPK;20;;marc.speri;2023-10-13 09:06;874;0;;
