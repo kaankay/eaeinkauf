@@ -206,3 +206,12 @@ class WeaDetail(models.Model):
 
     def __str__(self):
         return f"ID: {self.id} / Nabenhoehe: {self.nabenhoehe} / Gesamthoehe: {self.gesamthoehe} / WEA-Preis ID: {self.weaPreisID} / Created_by: {self.created_by} / Created_at: {self.created_at}"
+    
+# class Projekt(models.Model):
+#     alt_id= models.IntegerField(default=0)
+#     kurzName = models.CharField(max_length=200, null=True, blank=True)
+#     langName = models.CharField(max_length=200, null=True, blank=True)
+#     quelle = models.ManyToManyField(Quelle, on_delete = models.CASCADE)
+#     servicePreis = models.ManyToManyField(ServicePreis, on_delete = models.CASCADE)
+#     servicePreisID = models.IntegerField(default=0)
+#     quellen_id = models.IntegerField(default=0)

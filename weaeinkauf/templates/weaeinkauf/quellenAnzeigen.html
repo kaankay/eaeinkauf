@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WEA Einkauf</title>
+    <title>SWEA weaeinkauf</title>
     {% load static %}
     {% load bootstrap5 %}
     {% bootstrap_css %}
     {% bootstrap_javascript %}
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -44,12 +45,12 @@
 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">WEA Preise</a>
+                        <a class="nav-link text-white" href="{% url 'weapreiseAnzeigen' %}">WEA Preise</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Servicepreise</a>
+                        <a class="nav-link text-white" href="{% url 'servicepreiseAnzeigen' %}">Servicepreise</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link text-white" href="#">Hersteller</a>
                     </li>
                     <li class="nav-item">
@@ -57,17 +58,17 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Projekte</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
         <div class="dropdown me-2 position-absolute" style="right: 0;">
             <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
-                Willkommen Mustafa
+                Willkommen {{ user.username }}
             </button>
             <ul class="dropdown-menu py-0 bg-secondary border-0">
-                <li><a class="dropdown-item text-white custom-hover" href="#">Ausloggen</a></li>
+                <li><a class="dropdown-item text-white custom-hover" href="" id="logout">Ausloggen</a></li>
             </ul>
         </div>
         </div>
@@ -85,7 +86,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
-                                Filter nach Projekten und Quellenart
+                                Filter nach Quellenart
                                 <span class="material-symbols-outlined ms-1">
                                     help
                                 </span>
@@ -94,7 +95,8 @@
                         <div id="flush-collapseOne" class="accordion-collapse collapse"
                             data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
-                                <div class="d-flex align-items-center">
+                                <!-- Da es noch keine API-Zugangsdaten gibt, konnte Projektdaten durch API noch nicht abgefragt werden.
+                                    <div class="d-flex align-items-center">
                                     <label for="quelleId" class="form-label mb-0 me-3"
                                         style="font-weight: 500;">Projekt</label>
                                     <select class="form-select" aria-label="Default select example">
@@ -103,20 +105,21 @@
                                         <option value="2">Two</option>
                                         <option value="3">Three</option>
                                     </select>
-                                </div>
+                                </div> -->
                                 <div class="d-flex align-items-center mt-3">
                                     <label for="quelleId" class="form-label mb-0 me-3"
                                         style="font-weight: 500;">Quellenart</label>
-                                    <select class="form-select" aria-label="Default select example">
+                                    <select class="form-select" aria-label="Default select example" id="quellenart">
                                         <option selected></option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
+                                        <option value="Vertrag">Vertrag</option>
+                                        <option value="Angebot">Angebot</option>
+                                        <option value="Schätzung">Schätzung</option>
+                                        <option value="Indikation">Indikation</option>
                                     </select>
                                 </div>
                                 <div class="d-flex justify-content-end mt-3">
-                                    <button class="btn btn-primary me-3 py-1">Filtern</button>
-                                    <button class="btn btn-primary py-1">Zurücksetzen</button>
+                                    <button class="btn btn-primary me-3 py-1" id="quelle_filter">Filtern</button>
+                                    <button class="btn btn-primary py-1" id="quelle_zuruecksetzen">Zurücksetzen</button>
                                 </div>
                             </div>
                         </div>
@@ -127,9 +130,9 @@
         <div class="mt-2 row px-1 justify-content-between">
             <form class="col-12 col-lg-7">
                 <div class="input-group ">
-                    <input type="text" class="form-control" id="quelleId">
-                    <button class="btn btn-secondary" type="button">Suchen</button>
-                    <button class="btn btn-secondary ms-1" type="button">Löschen</button>
+                    <input type="text" class="form-control" id="search_query" value="{{search_query|default_if_none:''}}">
+                    <button class="btn btn-secondary" type="button" id="search">Suchen</button>
+                    <button class="btn btn-secondary ms-1" type="button" id="export">Export</button>
                 </div>
             </form>
             <div class="col-12 col-lg-2 d-flex justify-content-end align-items-center">
@@ -163,10 +166,10 @@
                         <td>{{quelle.created_by}}</td>
                         <td>{{quelle.created_on}}</td>
                         <td>{{quelleDoc.filename|truncate_chars:10}}</td>
-                        <td>FL Friedland</td>
+                        <td>Brandenburg</td>
                         <td>{{quelle.quellenart}}</td>
                         <td class="text-center">
-                            <a class="ms-2" href="{% url 'weapreisHinzufuegen' %}">
+                            <a class="ms-2" href="{% url 'weapreisHinzufuegen' quelle.id %}">
                                 <span class="material-symbols-outlined btn bg-success p-1 fw-bolder text-white">
                                     add
                                 </span>
@@ -191,7 +194,7 @@
                                 </span>
                             </a>
                             <a>
-                                <form action="{% url 'quellenDetailsLoeschen' quelle.id %}" method="post" style="display:inline;">
+                                <form action="{% url 'quellenDetailsLoeschen' quelle.id %}" method="post" id="loeschen-form" style="display:inline;">
                                     {% csrf_token %}
                                     <!--button type="submit" class="btn btn-danger">Löschen</button-->
                                     <span onclick="confirmDelete()" class="material-symbols-outlined btn bg-danger p-1 fw-bolder text-white">
@@ -212,12 +215,12 @@
                 <ul class="pagination justify-content-center">
                     {% if page_obj.has_previous %}
                         <li class="page-item">
-                            <a class="page-link" href="?page=1" aria-label="First">
+                            <a class="page-link" href="?page=1{{param}}" aria-label="First">
                                 <span aria-hidden="true">&laquo;&laquo;</span>
                             </a>
                         </li>
                         <li class="page-item">
-                            <a class="page-link" href="?page={{ page_obj.previous_page_number }}" aria-label="Previous">
+                            <a class="page-link" href="?page={{ page_obj.previous_page_number }}{{param}}" aria-label="Previous">
                                 <span aria-hidden="true">&laquo;</span>
                             </a>
                         </li>
@@ -227,18 +230,18 @@
                         {% if page_obj.number == num %}
                             <li class="page-item active"><a class="page-link" href="#">{{ num }}</a></li>
                         {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
-                            <li class="page-item"><a class="page-link" href="?page={{ num }}">{{ num }}</a></li>
+                            <li class="page-item"><a class="page-link" href="?page={{ num }}{{param}}">{{ num }}</a></li>
                         {% endif %}
                     {% endfor %}
 
                     {% if page_obj.has_next %}
                         <li class="page-item">
-                            <a class="page-link" href="?page={{ page_obj.next_page_number }}" aria-label="Next">
+                            <a class="page-link" href="?page={{ page_obj.next_page_number }}{{param}}" aria-label="Next">
                                 <span aria-hidden="true">&raquo;</span>
                             </a>
                         </li>
                         <li class="page-item">
-                            <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}" aria-label="Last">
+                            <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}{{param}}" aria-label="Last">
                                 <span aria-hidden="true">&raquo;&raquo;</span>
                             </a>
                         </li>
@@ -247,8 +250,74 @@
             </nav>
         </div>
     </div>
-    <!-- JavaScript zur Bestätigung der Löschung -->
     <script type="text/javascript">
+
+        $(document).ready(function () {
+          $("#quelle_filter").click(function() {
+                var quellenart = $('#quellenart').find(":selected").val(); // nimm das Value der ausgewählten Quellenart
+                var url = new URL(window.location.href); // nimmt bestehende Url
+                url.searchParams.set("quellenart", quellenart); // fügt die "quellenart" Parameter in die Url hinzu
+                var newUrl = url.href; // weis neue Url neuer Variable "newUrl" zu
+                window.location.href = newUrl; // aktualisiere die Seite nach der neuen Url
+
+                   
+          });
+          $("#quelle_zuruecksetzen").click(function() {
+                var url = new URL(window.location.href);
+                url.searchParams.delete("quellenart"); // lösch die "quellenart" Parameter von der Url
+                var newUrl = url.href;
+                window.location.href = newUrl;
+                   
+          });
+          $("#search").click(function() {
+                var search = $('#search_query').val(); // nimm das Value im Suchfeld
+                var url = new URL(window.location.href);
+                url.searchParams.set("search", search); // fügt die eingegebene Wörter in die Url hinzu
+                var newUrl = url.href;
+                window.location.href = newUrl;
+                   
+          });
+          const DownloadCsv = (function() { // Das ermöglicht das Herunterladen von Daten als CSV-Datei.
+            const a = document.createElement("a");
+            document.body.appendChild(a);
+            a.style = "display: none";
+            return function(data, fileName) {
+                const blob = new Blob([data], {type: "octet/stream"}),
+                url = window.URL.createObjectURL(blob);
+                a.href = url;
+                a.download = fileName;
+                a.click();
+                window.URL.revokeObjectURL(url);
+            };
+        }()); 
+          $("#export").click(function(){  // sendet eine AJAX-Anfrage an den Server, um eine CSV-Datei zu exportieren und herunterzuladen.
+            var url = new URL(window.location.href);
+                $.ajax({
+                    url: url,
+                    method: "POST",
+                    headers: {'X-CSRFToken': '{{ csrf_token }}'},
+                    data: {export: true}, // die Daten über Export schicken
+                }).done(function(response) {
+                    DownloadCsv(response, "quelle.csv") // CSV-Response herunterladen
+                }).fail(function (error) {
+                    console.log(error);
+                });
+            });
+        });
+
+        $("#logout").click(function(){
+            var url = new URL(window.location.href);
+                $.ajax({
+                    url: "{% url 'logout' %}",
+                    method: "POST",
+                    headers: {'X-CSRFToken': '{{ csrf_token }}'},
+                }).done(function(response) {
+                    window.location = '/';
+                }).fail(function (error) {
+                    console.log(error);
+                });
+        });
+        // JavaScript zur Bestätigung der Löschung
         function confirmDelete() {
             if (confirm("Bist du sicher, dass du diese Quelle löschen möchtest?")) {
                 document.getElementById('loeschen-form').submit();

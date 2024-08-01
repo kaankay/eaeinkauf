@@ -16,16 +16,6 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <link rel="stylesheet" href="{% static 'weaeinkauf/style.css' %}">
-  <style>
-    .no-bullets {
-        list-style-type: none;
-        padding: 0;
-    }
-    .force-break {
-        display: inline-block;
-        margin-left: 1.4em; /* Optional: Anpassen, um zu viel Platz vor „Bücher“ zu vermeiden */
-    }
-</style>
 </head>
 
 <body>
@@ -79,91 +69,143 @@
                 <li><a class="dropdown-item text-white custom-hover" href="" id="logout">Ausloggen</a></li>
             </ul>
         </div>
+        </div>
     </nav>
 
     <div class="row p-4">
         <div class="col-12 col-lg-8">
             <div class="card">
                 <div class="card-header bg-primary text-white">
-                    <h4 class="mt-2"> Wea-Preis Hinzufügen </h4>
+                    <h4 class="mt-2"> Preis anzeigen </h4>
+                    <p class="mb-0">Wea Preis ID : {{weaPreisDetail.id}}</p>
                 </div>
                 <div class="card-body">
-                    <form method="post">
-                        {% csrf_token %}
-                        <div class="row mb-4">
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaPreis_form.prefix }}-weaTyp_id" class="form-label mb-0" style="font-weight: 500;">WEA Typ *</label>
-                                {{weaPreis_form.weaTyp_id}}
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaPreis_form.prefix }}-preis" class="form-label mb-0" style="font-weight: 500;">Preis WEA <span class="fw-lighter">(Bsp. 123.456,78)</span></label>
-                                {{weaPreis_form.preis}}
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaPreis_form.prefix }}-transportkosten" class="form-label mb-0" style="font-weight: 500;">Preis Transport <span class="fw-lighter">(Bsp. 123.456,78)</span></label>
-                                {{weaPreis_form.transportkosten}}
-                            </div>
+                    <div class="row mb-4">
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">WEA Typ: </label>
+                            <p>{{weaPreisDetail.weaTyp_id}}</p>
                         </div>
-                        <div class="row mb-4">
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaPreis_form.prefix }}-preis_w_fundament" class="form-label mb-0" style="font-weight: 500;">Preis Fundament <span class="fw-lighter">(Bsp. 123.456,78)</span></label>
-                                {{weaPreis_form.preis_w_fundament}}
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaPreis_form.prefix }}-waehrung" class="form-label mb-0" style="font-weight: 500;">Währung </label>
-                                {{weaPreis_form.waehrung}}
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaPreis_form.prefix }}-gueltigkeit" class="form-label mb-0" style="font-weight: 500;">Preisgültigkeit</label>
-                                {{weaPreis_form.gueltigkeit}}
-                            </div>
+                        {% for detail in weaDetail %}
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Nabenhöhe in m :</label>
+                            {% if detail.nabenhoehe %}
+                            <p>{{detail.nabenhoehe|format_length}}</p>
+                            {% else %}
+                            <p>--</p>
+                            {% endif %}
                         </div>
-                        <div class="row mb-4">
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaPreis_form.prefix }}-garantie_verfuegbarkeit" class="form-label mb-0" style="font-weight: 500;">Garantierte Verfügbarkeit</label>
-                                {{weaPreis_form.garantie_verfuegbarkeit}}
-                            </div>
-                            {{ weaDetail_formset.management_form }}
-                            {% for weaDetail_form in weaDetail_formset %}
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaDetail_form.prefix }}-nabenhoehe" class="form-label mb-0" style="font-weight: 500;">Nabenhöhe in m </label>
-                                {{weaDetail_form.nabenhoehe}}
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaDetail_form.prefix }}-turmtyp" class="form-label mb-0" style="font-weight: 500;">Turmtyp </label>
-                                {{weaDetail_form.turmtyp}}
-                            </div>
+                        {% endfor %}
+                        {% for detail in weaDetail %}
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Turmtyp: </label>
+                            {% if detail.turmtyp %}
+                            <p>{{detail.turmtyp}}</p>
+                            {% else %}
+                            <p>--</p>
+                            {% endif %}
                         </div>
-                        <div class="row mb-4">
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaDetail_form.prefix }}-auslaufdatum" class="form-label mb-0" style="font-weight: 500;">Auslaufdatum</label>
-                                {{weaDetail_form.auslaufdatum}}
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaDetail_form.prefix }}-genehmigungsunterlagen" class="form-label mb-0" style="font-weight: 500;">Genehmigungsunterlagen</label>
-                                {{weaDetail_form.genehmigungsunterlagen}}
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ weaDetail_form.prefix }}-windklasse" class="form-label mb-0" style="font-weight: 500;">Windklasse</label>
-                                {{weaDetail_form.windklasse}}
-                            </div>
-                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Preis WEA:</label>
+                            <p>{{weaPreisDetail.preis|format_currency}}</p>
                         </div>
-                        <div class="row mb-4">
-                            {{ kondition_formset.management_form }}
-                            {% for kondition_form in kondition_formset %}
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ kondition_form.prefix }}-wea_anzahl" class="form-label mb-0" style="font-weight: 500;" placeholder="1,2,5..">Kondition WEA Anzahl</label>
-                                {{kondition_form.wea_anzahl}}
-                            </div>
-                            <div class="col-12 col-sm-6 col-lg-4 p-2">
-                                <label for="{{ kondition_form.prefix }}-land" class="form-label mb-0" style="font-weight: 500;">Land <span class="fw-lighter">(Länderkürzel)</span></label>
-                                {{kondition_form.land}}
-                            </div>
-                            {% endfor %}
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Preis Transport:</label>
+                            {% if weaPreisDetail.transportkosten %}
+                            <p>{{weaPreisDetail.transportkosten|format_currency}}</p>
+                            {% else %}
+                            <p>--</p>
+                            {% endif %}
                         </div>
-                        <button type="submit" class="btn btn-primary">Preis eintragen</button>
-                    </form>
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Preis Fundament:</label>
+                            {% if weaPreisDetail.preis_w_fundament %}
+                            <p>{{weaPreisDetail.preis_w_fundament|format_currency}}</p>
+                            {% else %}
+                            <p>--</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Währung:</label>
+                            {% if weaPreisDetail.waehrung %}
+                            <p>{{weaPreisDetail.waehrung}}</p>
+                            {% else %}
+                            <p>--</p>
+                            {% endif %}
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Preisgültigkeit:</label>
+                            {% if weaPreisDetail.gueltigkeit %}
+                            <p>{{weaPreisDetail.gueltigkeit}}</p>
+                            {% else %}
+                            <p>unbekannt</p>
+                            {% endif %}
+                        </div>
+                        {% for kondi in kondition %}
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Land: <span
+                                    class="fw-lighter">Länderkürzel</span></label>
+                            {% if kondi.land %}
+                            <p>{{kondi.land}}</p>
+                            {% else %}
+                            <P>unbekannt</P>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% for detail in weaDetail %}
+                    <div class="row mb-4">
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Auslaufdatum</label>
+                            {% if detail.auslaufdatum %}
+                            <p>{{detail.auslaufdatum}}</p>
+                            {% else %}
+                            <p>--</p>
+                            {% endif %}
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Genehmigungsunterlagen</label>
+                            {% if detail.genehmigungsunterlagen %}
+                            <p>{{detail.genehmigungsunterlagen}}</p>
+                            {% else %}
+                            <p>--</p>
+                            {% endif %}
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Windklasse</label>
+                            {% if detail.windklasse %}
+                            <p>{{detail.windklasse}}</p>
+                            {% else %}
+                            <p>--</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <div class="row mb-4">
+                        {% for kondi in kondition %}
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Kondition WEA Anzahl</label>
+                            {% if kondi.wea_anzahl %}
+                            <p>{{kondi.wea_anzahl}}</p>
+                            {% else %}
+                            <P>--</P>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                        <div class="col-12 col-sm-6 col-lg-4 p-2">
+                            <label for="quelleId" class="form-label mb-0" style="font-weight: 500;">Garantierte Verfügbarkeit</label>
+                            {% if weaPreisDetail.garantie_verfuegbarkeit %}
+                            <p>{{weaPreisDetail.garantie_verfuegbarkeit}}</p>
+                            {% else %}
+                            <p>--</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Preis eintragen</button>
                 </div>
             </div>
         </div>
@@ -303,7 +345,7 @@
                 }).fail(function (error) {
                     console.log(error);
                 });
-            })
+            });
     </script>
 </body>
 

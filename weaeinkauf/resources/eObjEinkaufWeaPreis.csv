@@ -1,0 +1,30 @@
+Id;Name;EATyp_ID;preis;waehrung;transportkosten;gueltigkeit;garant_verfuegbarkeit;created_by;created_on;quelleID;preis_w_fundament
+80;;33;231100;Euro;;;keine Angabe;max.verstappen;21.11.2017 19:05;80;231100
+81;;147;360000;Euro;;;keine Angabe;max.verstappen;21.11.2017 19:05;81;360000
+82;;138;5700000;Euro;;;keine Angabe;max.verstappen;21.11.2017 19:05;82;5700000
+83;;138;8900000;Euro;;;keine Angabe;max.verstappen;21.11.2017 19:05;83;8900000
+84;;138;3400000;Euro;;;keine Angabe;max.verstappen;21.11.2017 19:05;84;3400000
+85;;138;6300000;Euro;;;keine Angabe;max.verstappen;21.11.2017 19:05;85;6300000
+86;;138;5750000;Euro;;;keine Angabe;max.verstappen;21.11.2017 19:05;86;5750000
+87;;138;2750000;Euro;;;keine Angabe;max.verstappen;21.11.2017 19:05;87;2750000
+88;;138;4780000;Euro;;;keine Angabe;max.verstappen;21.11.2017 19:05;88;4780000
+89;;138;3750000;Euro;;;keine Angabe;max.verstappen;21.11.2017 19:05;89;3750000
+473;;606;1280000;Euro;0;;Zeitbasiert;lando.norris;06.04.2018 16:04;459;1430000
+474;;643;1500000;Euro;0;;Zeitbasiert;lando.norris;17.04.2018 10:19;460;1500000
+475;;643;5200000;Euro;0;;Zeitbasiert;lando.norris;17.04.2018 10:20;460;5200000
+476;;643;1200000;Euro;0;;Zeitbasiert;lando.norris;17.04.2018 10:21;460;1200000
+477;;644;3400000;Euro;0;;Zeitbasiert;lando.norris;17.04.2018 10:34;460;3400000
+478;;644;2100000;Euro;0;;Zeitbasiert;lando.norris;17.04.2018 10:39;460;2200000
+479;;644;2200000;Euro;0;;Zeitbasiert;lando.norris;17.04.2018 10:40;460;2200000
+480;;644;2500000;Euro;0;;Zeitbasiert;lando.norris;17.04.2018 10:41;460;2500000
+481;;271;985000;Euro;;;Zeitbasiert;lando.norris;04.05.2018 10:28;462;1085000
+482;;323;1225000;Euro;0;;Zeitbasiert;lando.norris;04.05.2018 10:30;462;1325000
+483;;579;1240000;Euro;;;Zeitbasiert;lando.norris;04.05.2018 10:34;462;1340000
+484;;517;1265000;Euro;0;;keine Angabe;lando.norris;18.05.2018 09:44;464;1265000
+485;;546;755000;Euro;;;Zeitbasiert;lando.norris;18.05.2018 10:00;465;755000
+486;;520;1150000;Euro;0;;Zeitbasiert;lando.norris;22.05.2018 17:10;466;1150000
+487;;601;1900000;Euro;0;;Zeitbasiert;lando.norris;22.05.2018 17:12;466;1900000
+488;;594;1884000;Euro;0;;Zeitbasiert;lando.norris;26.06.2018 14:48;467;1984000
+489;;606;1849000;Euro;0;;Zeitbasiert;lando.norris;26.06.2018 14:52;467;1949000
+490;;615;3850000;Euro;0;;Zeitbasiert;lando.norris;27.06.2018 13:55;468;3850000
+491;;588;3100000;Euro;0;;Zeitbasiert;lando.norris;27.06.2018 14:04;468;3100000
